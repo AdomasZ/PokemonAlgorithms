@@ -1,11 +1,20 @@
 package com.os;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
 
 public class Main {
+    private static List<Pokemon> myLinkedList       = new MyLinkedList();
+    private static Map<Integer,Pokemon> myHashMap   = new MyHashMap();
+    private static Map<Integer,Pokemon> myTreeMap   = new MyTreeMap();
+    private static List<Pokemon> myArrayList        = new MyArrayList<>();
     public static void main(String[] args) throws IOException {
+        readPokemons();
+    }
+    private static void readPokemons() throws IOException {
         String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
         String fileOut = "PokemonOrdered.csv";
         String line = null;
@@ -31,8 +40,12 @@ public class Main {
             int generation      = Integer.parseInt(temp[11]);
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
+
+            myLinkedList.add(pokemon);
+            myHashMap.put(pokemon.getNr(), pokemon);
+            myTreeMap.put(pokemon.getNr(), pokemon);
+            myArrayList.add(pokemon);
         }
         bufferedReader.close();
-
     }
 }

@@ -7,12 +7,13 @@ import java.util.Map;
 
 
 public class Main {
-    private static List<Pokemon> myLinkedList       = new MyLinkedList();
-    private static Map<Integer,Pokemon> myHashMap   = new MyHashMap();
-    private static Map<Integer,Pokemon> myTreeMap   = new MyTreeMap();
-    private static List<Pokemon> myArrayList        = new MyArrayList<>();
+//    private static MyLinkedList<Pokemon> myLinkedList = new MyLinkedList();
+//    private static Map<Integer,Pokemon> myHashMap   = new MyHashMap();
+//    private static Map<Integer,Pokemon> myTreeMap   = new MyTreeMap();
+//    private static List<Pokemon> myArrayList        = new MyArrayList<>();
     public static void main(String[] args) throws IOException {
         readPokemons();
+//        myLinkedList.head.data.getName();
     }
     private static void readPokemons() throws IOException {
         String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
@@ -41,10 +42,10 @@ public class Main {
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
 
-            myLinkedList.add(pokemon);
-            myHashMap.put(pokemon.getNr(), pokemon);
-            myTreeMap.put(pokemon.getNr(), pokemon);
-            myArrayList.add(pokemon);
+//            myLinkedList.add(pokemon);
+//            myHashMap.put(pokemon.getNr(), pokemon);
+//            myTreeMap.put(pokemon.getNr(), pokemon);
+//            myArrayList.add(pokemon);
         }
         bufferedReader.close();
     }

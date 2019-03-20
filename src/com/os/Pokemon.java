@@ -1,6 +1,6 @@
 package com.os;
 
-public class Pokemon {
+public class Pokemon implements Comparable{
     private int nr;
     private String name;
     private String type1;
@@ -14,6 +14,16 @@ public class Pokemon {
     private int speed;
     private int generation;
     private boolean legendary;
+    private Object compareCriteria;
+    public Object getCompareCriteria() {
+        return compareCriteria;
+    }
+
+    public void setCompareCriteria(Object compareCriteria) {
+        this.compareCriteria = compareCriteria;
+    }
+
+
 
     public Pokemon(int nr, String name, String type1, String type2, int total, int HP, int attack, int defense, int SPattack, int SPdefense, int speed, int generation, boolean legendary) {
         this.nr = nr;
@@ -29,6 +39,27 @@ public class Pokemon {
         this.speed = speed;
         this.generation = generation;
         this.legendary = legendary;
+        compareCriteria = this.name;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (((Pokemon) o).getCompareCriteria() instanceof String){
+            String criteria = (String)((Pokemon) o).getCompareCriteria();
+            return ((String)this.compareCriteria).compareTo(criteria);
+        } else if(((Pokemon) o).getCompareCriteria() instanceof Integer) {
+            int criteria = (Integer) ((Pokemon) o).getCompareCriteria();
+            if((int)this.compareCriteria > criteria){
+                return 1;
+            } else if ((int)this.compareCriteria < criteria){
+                return -1;
+            } else {
+                return 0;
+            }
+        } else if(((Pokemon) o).getCompareCriteria() instanceof Boolean){
+
+        }
+        return 0;
     }
 
     public int getNr() {

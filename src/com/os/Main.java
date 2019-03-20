@@ -2,18 +2,17 @@ package com.os;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 
 public class Main {
-//    private static MyLinkedList<Pokemon> myLinkedList = new MyLinkedList();
-//    private static Map<Integer,Pokemon> myHashMap   = new MyHashMap();
-//    private static Map<Integer,Pokemon> myTreeMap   = new MyTreeMap();
-//    private static List<Pokemon> myArrayList        = new MyArrayList<>();
+    private static MyLinkedList<Pokemon> linkedList = new MyLinkedList<>();
+
     public static void main(String[] args) throws IOException {
         readPokemons();
-//        myLinkedList.head.data.getName();
+        System.out.println(linkedList.get(1).getData().compareTo(linkedList.get(3).getData()));
     }
     private static void readPokemons() throws IOException {
         String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
@@ -41,11 +40,7 @@ public class Main {
             int generation      = Integer.parseInt(temp[11]);
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
-
-//            myLinkedList.add(pokemon);
-//            myHashMap.put(pokemon.getNr(), pokemon);
-//            myTreeMap.put(pokemon.getNr(), pokemon);
-//            myArrayList.add(pokemon);
+            linkedList.add(pokemon);
         }
         bufferedReader.close();
     }

@@ -27,7 +27,6 @@ public class MyLinkedList<T> {
         a.swapRight(n0);
         a.swapRight(n1);
         System.out.println(find(a.get(0),n0));
-
     }
     private void swapRight(Node node){
         if (node.next == null)
@@ -108,6 +107,10 @@ public class MyLinkedList<T> {
         public Node(T data, Node next){
             this.data = data;
             this.next = next;
+        }
+
+        public T getData(){
+            return data;
         }
 
         boolean equal(Node element) {

@@ -28,17 +28,19 @@ public class MyLinkedList<T> {
         a.swapRight(n1);
         System.out.println(find(a.get(0),n0));
     }
-    private void swapRight(Node node){
-        if (node.next == null)
+    public void swapRight(Node node){
+        if (node.next == null || size < 2)
             return;
         Node nodeRight = node.next;
         if(node != head){
             Node nodeLeft = get(find(head, node)-1);
-            nodeLeft.next = node;
-            node.next = nodeRight;
+            nodeLeft.next = nodeRight;
+            nodeRight.next = node;
         } else {
+            Node oldHead = head;
             head = nodeRight;
-            head.next = node;
+            head.next = oldHead;
+            oldHead.next = nodeRight.next;
         }
     }
     public MyLinkedList() {

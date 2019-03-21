@@ -14,6 +14,7 @@ public class Pokemon implements Comparable{
     private int speed;
     private int generation;
     private boolean legendary;
+    // The criteria is used in the compateTo(Object o) method to determine the Pokemon variable to be used in comparison.
     private Object compareCriteria;
     public Object getCompareCriteria() {
         return compareCriteria;
@@ -45,9 +46,12 @@ public class Pokemon implements Comparable{
     @Override
     public int compareTo(Object o) {
         if (((Pokemon) o).getCompareCriteria() instanceof String){
+
             String criteria = (String)((Pokemon) o).getCompareCriteria();
             return ((String)this.compareCriteria).compareTo(criteria);
+
         } else if(((Pokemon) o).getCompareCriteria() instanceof Integer) {
+
             int criteria = (Integer) ((Pokemon) o).getCompareCriteria();
             if((int)this.compareCriteria > criteria){
                 return 1;
@@ -56,9 +60,19 @@ public class Pokemon implements Comparable{
             } else {
                 return 0;
             }
-        } else if(((Pokemon) o).getCompareCriteria() instanceof Boolean){
 
+        } else if(((Pokemon) o).getCompareCriteria() instanceof Boolean) {
+
+            boolean criteria = (Boolean) ((Pokemon) o).getCompareCriteria();
+            if ((boolean) this.compareCriteria && !criteria) {
+                return 1;
+            } else if (!(boolean) this.compareCriteria && criteria) {
+                return -1;
+            } else {
+                return 0;
+            }
         }
+        System.out.println("Compare criteria not valid. Please set the compareCriteria to one of the supported types: int, String or boolean.");
         return 0;
     }
 

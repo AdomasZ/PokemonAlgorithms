@@ -12,7 +12,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         readPokemons();
-        System.out.println(linkedList.get(1).getData().compareTo(linkedList.get(3).getData()));
+        System.out.println(linkedList.get(1).getData().getName());
+        System.out.println(linkedList.get(2).getData().getName());
+        System.out.println(linkedList.get(1).getData().compareTo(linkedList.get(2).getData()));
+        linkedList.swapRight(linkedList.get(1));
+        System.out.println(linkedList.get(1).getData().getName());
+        System.out.println(linkedList.get(2).getData().getName());
+        System.out.println(linkedList.get(1).getData().compareTo(linkedList.get(2).getData()));
     }
     private static void readPokemons() throws IOException {
         String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";

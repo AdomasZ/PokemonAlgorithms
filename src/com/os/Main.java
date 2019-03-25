@@ -12,20 +12,32 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         readPokemons();
-        testSwap();
+        Test test = new Test();
     }
 
-    private static void testSwap(){
-        System.out.println(linkedList.get(0).getData().getName());
-        System.out.println(linkedList.get(1).getData().getName());
-        System.out.println(linkedList.get(0).getData().compareTo(linkedList.get(1).getData()));
-        linkedList.swap(linkedList.get(1), linkedList.get(0));
-        System.out.println(linkedList.get(0).getData().getName());
-        System.out.println(linkedList.get(1).getData().getName());
-        System.out.println(linkedList.get(0).getData().compareTo(linkedList.get(1).getData()));
+    void bubbleSort(MyLinkedList<Pokemon> list)
+    {
+        int n = list.size();
+        for (int i = 0; i < n-1; i++)
+            for (int j = 0; j < n-i-1; j++)
+                if (list.get(j).getData().compareTo(list.get(j+1))==1)
+                {
+                    // swap arr[j+1] and arr[i]
+                    list.swapRight(list.get(j));
+                }
     }
-    private static void readPokemons() throws IOException {
-        String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
+    private static void testSwap(int i, int j){
+        System.out.println(linkedList.get(i).getData().getName());
+        System.out.println(linkedList.get(j).getData().getName());
+        System.out.println(linkedList.get(i).getData().compareTo(linkedList.get(j).getData()));
+        linkedList.swap(linkedList.get(i), linkedList.get(j));
+        System.out.println(linkedList.get(i).getData().getName());
+        System.out.println(linkedList.get(j).getData().getName());
+        System.out.println(linkedList.get(i).getData().compareTo(linkedList.get(j).getData()));
+    }
+
+    public static MyLinkedList<Pokemon> readPokemons() throws IOException {
+        String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon1.csv";
         String fileOut = "PokemonOrdered.csv";
         String line = null;
 
@@ -53,5 +65,6 @@ public class Main {
             linkedList.add(pokemon);
         }
         bufferedReader.close();
+        return linkedList;
     }
 }

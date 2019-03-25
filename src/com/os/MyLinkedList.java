@@ -2,14 +2,11 @@ package com.os;
 
 import java.io.IOException;
 
-public class MyLinkedList<T> {
+public class MyLinkedList<T>{
     private Node head;
     private Node tail;
     private int size = 0;
-    public static void main(String[] args) throws IOException {
-        MyLinkedList a = new MyLinkedList<>();
-        a.testSwap();
-    }
+
 
     public void testFind(){
         MyLinkedList a = new MyLinkedList<>();
@@ -48,9 +45,11 @@ public class MyLinkedList<T> {
             return;
         Node nodeRight = node.next;
         if(node != head){
+            Node nodeRightNext = nodeRight.next;
             Node nodeLeft = get(find(node)-1);
             nodeLeft.next = nodeRight;
             nodeRight.next = node;
+            node.next = nodeRightNext;
         } else {
             Node oldHead = head;
             head = nodeRight;
@@ -62,8 +61,9 @@ public class MyLinkedList<T> {
     public void swap(Node node, Node node1){
         int nodeIndex = find(node);
         int node1Index = find(node1);
-        int difference = nodeIndex > node1Index ? nodeIndex - node1Index : node1Index - nodeIndex;
+        int difference = nodeIndex > node1Index? nodeIndex-node1Index:node1Index-nodeIndex;
         if(difference > 1){
+
             if(node == head){
                 Node node1Left = get(node1Index-1);
                 Node node1Right = get(node1Index+1);
@@ -81,7 +81,19 @@ public class MyLinkedList<T> {
                 head.next = node1Right;
                 nodeLeft.next = node1;
                 node1.next = nodeRight;
+            } else {
+                Node node1Right = get(node1Index+1);
+                Node node1Left = get(node1Index-1);
+                Node nodeRight = get(nodeIndex+1);
+                Node nodeLeft = get(nodeIndex-1);
+
+                nodeLeft.next = node1;
+                node1.next = nodeRight;
+
+                node1Left.next = node;
+                node.next = node1Right;
             }
+
         } else {
             if(nodeIndex > node1Index){
                 swapRight(node1);
@@ -89,11 +101,6 @@ public class MyLinkedList<T> {
                 swapRight(node);
             }
         }
-
-
-
-
-
     }
 
     public MyLinkedList() {

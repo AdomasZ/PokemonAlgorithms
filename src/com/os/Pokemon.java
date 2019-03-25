@@ -40,7 +40,7 @@ public class Pokemon implements Comparable{
         this.speed = speed;
         this.generation = generation;
         this.legendary = legendary;
-        compareCriteria = this.name;
+        compareCriteria = this.nr;
     }
 
     @Override
@@ -62,7 +62,6 @@ public class Pokemon implements Comparable{
             }
 
         } else if(((Pokemon) o).getCompareCriteria() instanceof Boolean) {
-
             boolean criteria = (Boolean) ((Pokemon) o).getCompareCriteria();
             if ((boolean) this.compareCriteria && !criteria) {
                 return 1;

@@ -9,10 +9,12 @@ import java.util.Map;
 
 public class Main {
     private static MyLinkedList<Pokemon> linkedList = new MyLinkedList<>();
+    private static BinarySearchTree<Pokemon> binarySearchTree = new BinarySearchTree<>();
 
     public static void main(String[] args) throws IOException {
         readPokemons();
-        Test test = new Test();
+        binarySearchTree.printTree();
+        //Test test = new Test();
     }
 
     void bubbleSort(MyLinkedList<Pokemon> list)
@@ -37,7 +39,7 @@ public class Main {
     }
 
     public static MyLinkedList<Pokemon> readPokemons() throws IOException {
-        String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
+        String fileIn = "src/com/os/Pokemon.csv";
         String fileOut = "PokemonOrdered.csv";
         String line = null;
 
@@ -62,9 +64,14 @@ public class Main {
             int generation      = Integer.parseInt(temp[11]);
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
-            linkedList.add(pokemon);
+            addPokemonToDatastructures(pokemon);
         }
         bufferedReader.close();
         return linkedList;
+    }
+
+    private static void addPokemonToDatastructures(Pokemon pokemon) {
+        linkedList.add(pokemon);
+        binarySearchTree.add(pokemon);
     }
 }

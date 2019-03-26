@@ -126,4 +126,9 @@ public class Pokemon implements Comparable{
     public boolean isLegendary() {
         return legendary;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

@@ -40,14 +40,14 @@ public class Pokemon implements Comparable{
         this.speed = speed;
         this.generation = generation;
         this.legendary = legendary;
-        compareCriteria = this.nr;
+        compareCriteria = this.name;
     }
 
     @Override
     public int compareTo(Object o) {
         if (((Pokemon) o).getCompareCriteria() instanceof String){
-
             String criteria = (String)((Pokemon) o).getCompareCriteria();
+
             return ((String)this.compareCriteria).compareTo(criteria);
 
         } else if(((Pokemon) o).getCompareCriteria() instanceof Integer) {

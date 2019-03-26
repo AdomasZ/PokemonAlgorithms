@@ -7,7 +7,6 @@ public class MyLinkedList<T>{
     private Node tail;
     private int size = 0;
 
-
     public void testFind(){
         MyLinkedList a = new MyLinkedList<>();
         a.add(0);
@@ -44,6 +43,7 @@ public class MyLinkedList<T>{
         if (node.next == null || size < 2)
             return;
         Node nodeRight = node.next;
+        Node nodeRihgtNext = nodeRight.next;
         if(node != head){
             Node nodeRightNext = nodeRight.next;
             Node nodeLeft = get(find(node)-1);
@@ -54,7 +54,7 @@ public class MyLinkedList<T>{
             Node oldHead = head;
             head = nodeRight;
             head.next = oldHead;
-            oldHead.next = nodeRight.next;
+            oldHead.next = nodeRihgtNext;
         }
     }
 

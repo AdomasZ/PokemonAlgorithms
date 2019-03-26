@@ -37,7 +37,7 @@ public class Main {
     }
 
     public static MyLinkedList<Pokemon> readPokemons() throws IOException {
-        String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon1.csv";
+        String fileIn = "C:\\Users\\zitku\\Google Drive\\SCHOOL\\Data Structures and Algorithms\\ThinkDataStructures-master\\Pokemon Algorithms\\src\\com\\os\\Pokemon.csv";
         String fileOut = "PokemonOrdered.csv";
         String line = null;
 

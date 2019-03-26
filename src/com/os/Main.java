@@ -13,7 +13,30 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         readPokemons();
-        binarySearchTree.printTree();
+        System.out.println("Inorder Traversal:");
+        binarySearchTree.inorderTraversal();
+
+        System.out.println();
+
+        System.out.println("Preorder Traversal:");
+        binarySearchTree.preorderTraversal();
+
+        System.out.println();
+
+        System.out.println("Postorder Traversal:");
+        binarySearchTree.postorderTraversal();
+
+        System.out.println();
+
+        System.out.println("Levelorder Traversal:");
+        binarySearchTree.levelOrderTraversal();
+
+        System.out.println();
+
+
+
+        //System.out.println(binarySearchTree.contains(new Pokemon(2,"test", "sf", "sf", 4, 3, 4, 3, 4,3, 4, 4, false)));
+        //binarySearchTree.printTree();
         //Test test = new Test();
     }
 
@@ -48,7 +71,10 @@ public class Main {
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         //Skip first line
         bufferedReader.readLine();
-        while ((line = bufferedReader.readLine()) != null) {
+
+        int counter = 0;
+
+        while ((line = bufferedReader.readLine())) {
             String[] temp = line.split(",");
             int nr              = Integer.parseInt(temp[0]);
             String name         = temp[1];
@@ -65,6 +91,7 @@ public class Main {
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
             addPokemonToDatastructures(pokemon);
+            counter ++;
         }
         bufferedReader.close();
         return linkedList;

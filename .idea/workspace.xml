@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46e599c-764e-444d-896c-f3065e693a8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokemon Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pokemon Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/os/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,33 +27,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="225" />
+          <entry key="java" value="4132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="225" />
+          <entry key="JAVA" value="4132" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="76" column="73" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -71,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="1717">
               <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
               <folding>
                 <element signature="e#3410#3411#0" expanded="true" />
@@ -81,20 +80,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="427">
+              <caret line="287" column="43" selection-start-line="287" selection-start-column="43" selection-end-line="287" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#BinarySearchTree#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#BinarySearchTree#1;class#BinarySearchTree#0" />
+                <element signature="docComment;method#add#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#recursiveAdd#0;class#BinarySearchTree#0" />
+                <element signature="method#recursiveAdd#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#contains#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#recursiveContains#0;class#BinarySearchTree#0" />
+                <element signature="method#recursiveContains#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#delete#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#recursiveDelete#0;class#BinarySearchTree#0" />
+                <element signature="method#recursiveDelete#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#findSmallestValue#0;class#BinarySearchTree#0" />
+                <element signature="method#findSmallestValue#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#printTree#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#inorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#preorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#postorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="docComment;method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+                <element signature="e#7736#7737#0" expanded="true" />
+                <element signature="e#7773#7774#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="425">
+              <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +146,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/os/Main.java" />
         <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/com/os/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/os/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Main.java" />
       </list>
     </option>
   </component>
@@ -121,7 +161,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -159,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553602325038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553623992387" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -205,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553601695725</updated>
-      <workItem from="1553601699223" duration="1190000" />
+      <workItem from="1553601699223" duration="6264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1190000" />
+    <option name="totallyTimeSpent" value="6264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -221,9 +262,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32848233" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -231,7 +272,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -253,28 +294,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-          <folding>
-            <element signature="e#3410#3411#0" expanded="true" />
-            <element signature="e#3437#3438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -285,17 +308,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="1717">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+          <folding>
+            <element signature="e#3410#3411#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="427">
+          <caret line="287" column="43" selection-start-line="287" selection-start-column="43" selection-end-line="287" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#BinarySearchTree#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#BinarySearchTree#1;class#BinarySearchTree#0" />
+            <element signature="docComment;method#add#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveAdd#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveAdd#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#contains#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveContains#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveContains#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#delete#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveDelete#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveDelete#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#findSmallestValue#0;class#BinarySearchTree#0" />
+            <element signature="method#findSmallestValue#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#printTree#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#inorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#preorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#postorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="e#7736#7737#0" expanded="true" />
+            <element signature="e#7773#7774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="76" column="73" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
         </state>
       </provider>
     </entry>

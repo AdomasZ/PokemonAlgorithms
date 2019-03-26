@@ -10,6 +10,7 @@ import java.util.Map;
 public class Main {
     private static MyLinkedList<Pokemon> linkedList = new MyLinkedList<>();
     private static BinarySearchTree<Pokemon> binarySearchTree = new BinarySearchTree<>();
+    private static Stack<Pokemon> stack = new Stack();
 
     public static void main(String[] args) throws IOException {
         readPokemons();
@@ -28,6 +29,32 @@ public class Main {
                     list.swapRight(list.get(j));
                 }
     }
+
+    //is an array of int fine or do i have to use list or something
+    public static void insertionSort(int arr[]) {
+        int i, key, j;
+        int n = arr.length;
+        for (i = 1; i < n; i++) {
+            key = arr[i];
+            j = i - 1;
+
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+            arr[j + 1] = key;
+        }
+    }
+
+    static void printArray(int arr[])
+    {
+        int n = arr.length;
+        for (int i = 0; i < n; ++i)
+            System.out.print(arr[i] + " ");
+
+        System.out.println();
+    }
+
     private static void testSwap(int i, int j){
         System.out.println(linkedList.get(i).getData().getName());
         System.out.println(linkedList.get(j).getData().getName());
@@ -73,5 +100,6 @@ public class Main {
     private static void addPokemonToDatastructures(Pokemon pokemon) {
         linkedList.add(pokemon);
         binarySearchTree.add(pokemon);
+        stack.push(pokemon);
     }
 }

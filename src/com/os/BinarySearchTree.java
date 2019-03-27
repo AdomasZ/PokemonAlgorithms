@@ -180,97 +180,106 @@ public class BinarySearchTree<T> {
     /**
      * Prints the whole Tree using in-order traversal
      */
-    public void inorderTraversal() {
-        recursiveInorderTraversal(root);
+    public String inorderTraversal() {
+        return recursiveInorderTraversal(root);
     }
 
     /**
      * In-order traversal
      * @param node starting point
      */
-    private void recursiveInorderTraversal(TreeNode node) {
+    private String recursiveInorderTraversal(TreeNode node) {
+        String traversal = "";
+
         if(node != null) {
             //Left node
             if (node.getLeft() != null) {
-                recursiveInorderTraversal(node.getLeft());
+                traversal += recursiveInorderTraversal(node.getLeft());
             }
 
             //node
-            System.out.println(node.getData().toString());
+            traversal += node.getData().toString() + "\n";
 
             //right node
             if (node.getRight() != null) {
-                recursiveInorderTraversal(node.getRight());
+                traversal += recursiveInorderTraversal(node.getRight());
             }
         }
+        return traversal;
     }
 
     /**
      * Prints the whole Tree using pre-order traversal
      */
-    public void preorderTraversal() {
-        recursivePreorderTraversal(root);
+    public String preorderTraversal() {
+        return recursivePreorderTraversal(root);
     }
 
     /**
      * Pre-order traversal
      * @param node starting point
      */
-    private void recursivePreorderTraversal(TreeNode node) {
+    private String recursivePreorderTraversal(TreeNode node) {
+        String traversal = "";
         if(node != null) {
             //node
-            System.out.println(node.getData().toString());
+            traversal += node.getData().toString() + "\n";
 
             //left node
             if (node.getLeft() != null) {
-                recursiveInorderTraversal(node.getLeft());
+                traversal += recursivePreorderTraversal(node.getLeft());
             }
 
             //right node
             if (node.getRight() != null) {
-                recursiveInorderTraversal(node.getRight());
+                traversal += recursivePreorderTraversal(node.getRight());
             }
         }
+        return traversal;
     }
 
     /**
      * Prints the whole Tree using post-order traversal
      */
-    public void postorderTraversal() {
-        recursivePostorderTraversal(root);
+    public String postorderTraversal() {
+        return recursivePostorderTraversal(root);
     }
 
     /**
      * Post-order traversal
      * @param node starting point
      */
-    private void recursivePostorderTraversal(TreeNode node) {
+    private String recursivePostorderTraversal(TreeNode node) {
+        String traveral = "";
         if(node != null) {
             //left node
             if (node.getLeft() != null) {
-                recursiveInorderTraversal(node.getLeft());
+                traveral += recursivePostorderTraversal(node.getLeft());
             }
 
             //right node
             if (node.getRight() != null) {
-                recursiveInorderTraversal(node.getRight());
+                traveral += recursivePostorderTraversal(node.getRight());
             }
 
             //node
-            System.out.println(node.getData().toString());
+            traveral += node.getData().toString() + "\n";
         }
+        return traveral;
     }
 
     //Breadth-First Search/Traversal
 
-    public void levelOrderTraversal() {
-        completeLevelOrderTraversal(root);
+    public String levelOrderTraversal() {
+        return completeLevelOrderTraversal(root);
     }
 
-    private void completeLevelOrderTraversal(TreeNode start) {
+    private String completeLevelOrderTraversal(TreeNode start) {
         if(start == null) {
-            return;
+            return "";
         }
+
+        String traversal = "";
 
         LinkedList<TreeNode> nodes = new LinkedList<>();
         nodes.add(start);
@@ -278,7 +287,7 @@ public class BinarySearchTree<T> {
         while(!nodes.isEmpty()) {
             TreeNode node = nodes.remove();
 
-            System.out.println(node.getData().toString());
+            traversal += node.getData().toString() + "\n";
 
             if(node.getLeft() != null) {
                 nodes.add(node.getLeft());
@@ -288,6 +297,8 @@ public class BinarySearchTree<T> {
                 nodes.add(node.getRight());
             }
         }
+
+        return traversal;
 
     }
 

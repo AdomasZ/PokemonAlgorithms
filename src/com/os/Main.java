@@ -15,22 +15,22 @@ public class Main {
     public static void main(String[] args) throws IOException {
         readPokemons();
         System.out.println("Inorder Traversal:");
-        binarySearchTree.inorderTraversal();
+        System.out.println(binarySearchTree.inorderTraversal());
 
         System.out.println();
 
         System.out.println("Preorder Traversal:");
-        binarySearchTree.preorderTraversal();
+        System.out.println(binarySearchTree.preorderTraversal());
 
         System.out.println();
 
         System.out.println("Postorder Traversal:");
-        binarySearchTree.postorderTraversal();
+        System.out.println(binarySearchTree.postorderTraversal());
 
         System.out.println();
 
         System.out.println("Levelorder Traversal:");
-        binarySearchTree.levelOrderTraversal();
+        System.out.println(binarySearchTree.levelOrderTraversal());
 
         System.out.println();
 

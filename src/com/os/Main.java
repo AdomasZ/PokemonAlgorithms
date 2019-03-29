@@ -2,18 +2,18 @@ package com.os;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 
 public class Main {
     private static MyLinkedList<Pokemon> linkedList = new MyLinkedList<>();
     private static BinarySearchTree<Pokemon> binarySearchTree = new BinarySearchTree<>();
     private static Stack<Pokemon> stack = new Stack();
+    private static MyQueue<Pokemon> queue = new MyQueue<>();
 
     public static void main(String[] args) throws IOException {
         readPokemons();
+
+
         System.out.println("Inorder Traversal:");
         System.out.println(binarySearchTree.inorderTraversal());
 
@@ -33,6 +33,7 @@ public class Main {
         System.out.println(binarySearchTree.levelOrderTraversal());
 
         System.out.println();
+
 
 
 
@@ -125,5 +126,17 @@ public class Main {
         linkedList.add(pokemon);
         binarySearchTree.add(pokemon);
         stack.push(pokemon);
+        queue.insert(pokemon);
     }
+
+    public static Pokemon sequentialNameSearch(String name)
+    {
+        for (Pokemon i : queue)
+            if(i.getName().contains(name)){
+                return i;
+            }
+        return null;
+    }
+
+
 }

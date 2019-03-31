@@ -1,7 +1,5 @@
 package com.os;
 
-import java.io.IOException;
-
 public class MyLinkedList<T>{
     private Node head;
     private Node tail;
@@ -153,6 +151,20 @@ public class MyLinkedList<T>{
             }
         }
     }
+
+    public void add(int index, T element) {
+        if (index == 0) {
+            head = new Node(element, head);
+        }
+        else {
+            Node nodeInfront = get(index - 1);
+            Node nodeToBeAdded = new Node(element, nodeInfront.next);
+            nodeInfront.next = nodeToBeAdded;
+        }
+        size++;
+
+    }
+
     public int size(){
         return size;
     }

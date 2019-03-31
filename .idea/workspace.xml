@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/os/BinarySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/os/QuickSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/os/Searcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokemon Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pokemon Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokemonAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PokemonAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Sorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon Algorithms/com/os/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Sorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pokemon Algorithms/com/os/BinarySearchTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Pokemon Algorithms/com/os/TreeNodeTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/MyQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/MyQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Sorter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,48 +49,10 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyArrayList.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2985">
-                    <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedList.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="165">
-                    <caret line="17" selection-start-line="17" selection-end-line="17" />
-                    <folding>
-                      <element signature="n#!!doc" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedListTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="270">
-                    <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-                    <folding>
-                      <element signature="n#!!doc" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Pokemon_Algorithms$SequentialSearcherTest_testSequentialSearchBinaryTree.ic" NAME="SequentialSearcherTest.testSequentialSearchBinaryTree Coverage Results" MODIFIED="1554022462424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.os.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="466924489">
@@ -69,28 +60,31 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="class" value="3" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2361" />
+          <entry key="java" value="5971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2361" />
+          <entry key="JAVA" value="5971" />
         </counts>
       </usages-collector>
     </session>
@@ -127,106 +121,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+        <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-605">
-              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/MyQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#2125#2126#0" expanded="true" />
-                <element signature="e#2170#2171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            <state relative-caret-position="328">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -234,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="1331">
+              <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -245,8 +153,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -285,13 +193,22 @@
         <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/com/os/Node.java" />
         <option value="$PROJECT_DIR$/src/com/os/Stack.java" />
-        <option value="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/Queue.java" />
         <option value="$PROJECT_DIR$/src/com/os/MyQueueTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/com/os/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
+        <option value="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" />
+        <option value="$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java" />
+        <option value="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" />
+        <option value="$PROJECT_DIR$/src/com/os/BinarySearcher.java" />
+        <option value="$PROJECT_DIR$/src/com/os/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/os/QuickSorter.java" />
+        <option value="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" />
       </list>
     </option>
   </component>
@@ -301,41 +218,51 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="783" />
-    <option name="y" value="40" />
-    <option name="width" value="800" />
-    <option name="height" value="720" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="os" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="os" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +271,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553691295449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554035957183" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -361,6 +288,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Nika\Documents\2019\Stenden\Year 2\Period  3\Algorithms and Data\Final\Pokemon Algorithms\test\com\os" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -374,42 +304,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.os.Main" />
+  <component name="RunManager" selected="JUnit.All in PokemonAlgorithms">
+    <configuration name="All in PokemonAlgorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokemonAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.os.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.os.MyQueue" />
-      <module name="PokemonAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.os.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Pokemon Algorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Pokemon Algorithms" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokemonAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -418,12 +322,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.MyQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueueTest.testdeleteObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSorterTest.testQuickSortLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokemonAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -432,27 +336,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.MyQueueTest" />
-      <option name="METHOD_NAME" value="testdeleteObject" />
+      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
+      <option name="METHOD_NAME" value="testQuickSortLinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSorterTest.testQuickSortMyLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokemonAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.os.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.os" />
+      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
+      <option name="METHOD_NAME" value="testQuickSortMyLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequentialSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokemonAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.os.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.os" />
+      <option name="MAIN_CLASS_NAME" value="com.os.SequentialSearcherTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.All in Pokemon Algorithms" />
-      <item itemvalue="Application.MyQueue" />
-      <item itemvalue="JUnit.MyQueueTest" />
-      <item itemvalue="JUnit.MyQueueTest.testdeleteObject" />
+      <item itemvalue="JUnit.SequentialSearcherTest" />
+      <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
+      <item itemvalue="JUnit.QuickSorterTest.testQuickSortMyLinkedList" />
+      <item itemvalue="JUnit.QuickSorterTest" />
+      <item itemvalue="JUnit.All in PokemonAlgorithms" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MyQueueTest" />
-        <item itemvalue="JUnit.MyQueueTest.testdeleteObject" />
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="JUnit.All in Pokemon Algorithms" />
+        <item itemvalue="JUnit.All in PokemonAlgorithms" />
+        <item itemvalue="JUnit.QuickSorterTest" />
+        <item itemvalue="JUnit.QuickSorterTest.testQuickSortMyLinkedList" />
+        <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
+        <item itemvalue="JUnit.SequentialSearcherTest" />
       </list>
     </recent_temporary>
   </component>
@@ -468,49 +402,50 @@
       <updated>1553601695725</updated>
       <workItem from="1553601699223" duration="1190000" />
       <workItem from="1553686975612" duration="3247000" />
+      <workItem from="1554020119969" duration="8593000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest - 2019.03.27 at 13h 39m 17s.xml">
-      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 23m 47s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest - 2019.03.27 at 13h 49m 02s.xml">
-      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 24m 05s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Pokemon_Algorithms - 2019.03.27 at 13h 53m 16s.xml">
-      <configuration name="All in Pokemon Algorithms" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 24m 16s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest - 2019.03.29 at 15h 06m 07s.xml">
-      <configuration name="MyQueueTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 24m 26s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest - 2019.03.29 at 15h 06m 29s.xml">
-      <configuration name="MyQueueTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 24m 41s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_testdeleteObject - 2019.03.29 at 15h 07m 49s.xml">
-      <configuration name="MyQueueTest.testdeleteObject" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 27m 05s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_testdeleteObject - 2019.03.29 at 15h 08m 13s.xml">
-      <configuration name="MyQueueTest.testdeleteObject" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 27m 10s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_testdeleteObject - 2019.03.29 at 15h 08m 39s.xml">
-      <configuration name="MyQueueTest.testdeleteObject" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 29m 29s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest - 2019.03.29 at 15h 08m 44s.xml">
-      <configuration name="MyQueueTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 32m 08s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest - 2019.03.29 at 15h 24m 20s.xml">
-      <configuration name="MyQueueTest" configurationId="JUnit" />
+    <history-entry file="QuickSorterTest - 2019.03.31 at 14h 36m 17s.xml">
+      <configuration name="QuickSorterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4600000" />
+    <option name="totallyTimeSpent" value="13193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3380744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,8 +454,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2987952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30325288" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2224554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,7 +463,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32744282" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,61 +512,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/os/QuickSorter.java</url>
+          <line>25</line>
+          <properties class="com.os.QuickSorter" method="partition">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/os/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/os/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="300" column="25" selection-start-line="300" selection-start-column="25" selection-end-line="300" selection-end-column="25" />
-          <folding>
-            <element signature="docComment;method#BinarySearchTree#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#BinarySearchTree#1;class#BinarySearchTree#0" />
-            <element signature="docComment;method#add#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveAdd#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveAdd#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#contains#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveContains#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveContains#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#delete#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveDelete#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveDelete#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#findSmallestValue#0;class#BinarySearchTree#0" />
-            <element signature="method#findSmallestValue#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#inorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#preorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#postorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="56" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;method#TestAdd#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testContains#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testContains#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testDelete#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -659,123 +557,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyArrayList.java">
+    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyArrayList.java" />
+    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedList.java" />
+    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedListTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+    <entry file="file://$PROJECT_DIR$/test/com/os/MyQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="1088">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="17">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="57" column="100" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="57" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#TestAdd#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testContains#0;class#BinarySearchTreeTest#0" />
+            <element signature="method#testContains#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testDelete#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="docComment;method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
+            <element signature="method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="100" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="189" column="60" selection-start-line="189" selection-start-column="60" selection-end-line="189" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#BinarySearchTree#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#BinarySearchTree#1;class#BinarySearchTree#0" />
+            <element signature="docComment;method#add#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveAdd#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#contains#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveContains#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveContains#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#delete#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveDelete#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveDelete#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#findSmallestValue#0;class#BinarySearchTree#0" />
+            <element signature="method#findSmallestValue#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#inorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#preorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#postorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="docComment;method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="method#completeLevelOrderTraversal#0;class#BinarySearchTree#0" />
+            <element signature="e#8709#8710#0" expanded="true" />
+            <element signature="e#8736#8737#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#0;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
+            <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/SequentialSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="docComment;method#sequentialSearch#0;class#SequentialSearcher#0" />
+            <element signature="method#sequentialSearch#0;class#SequentialSearcher#0" />
+            <element signature="docComment;method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+            <element signature="method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -831,7 +806,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Pokemon Algorithms</last-edited>
+          <last-edited>PokemonAlgorithms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

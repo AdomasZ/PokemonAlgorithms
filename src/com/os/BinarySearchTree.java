@@ -301,4 +301,14 @@ public class BinarySearchTree<T> {
 
     }
 
+    //Getter and Setter
+
+
+    /**
+     * Returns the root of the tree, so the starting point
+     * @return returns the root
+     */
+    public TreeNode getRoot() {
+        return root;
+    }
 }

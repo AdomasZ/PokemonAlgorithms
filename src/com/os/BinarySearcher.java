@@ -52,8 +52,26 @@ public class BinarySearcher {
     }
 
     public int binarySearch(MyLinkedList<Pokemon> list, Pokemon data) {
+        int left = 0;
+        int right = list.size()-1;
 
+        return binarySearch(list, data, left, right);
+    }
 
+    private int binarySearch(MyLinkedList<Pokemon> list, Pokemon data, int left, int right) {
+        while(right >= left) {
+            int middle = (left + right) / 2;
+            if(list.get(middle).getData().compareTo(data) == 0) {
+                return middle;
+            }
+            else if (list.get(middle).getData().compareTo(data) > 0) {
+                right = middle - 1;
+            }
+            else if (list.get(middle).getData().compareTo(data) < 0) {
+                left = middle + 1;
+            }
+
+        }
         return -1;
     }
 

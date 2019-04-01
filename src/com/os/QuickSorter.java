@@ -48,11 +48,19 @@ public class QuickSorter {
             if (list.get(j).getData().compareTo(pivot) < 0) {
                 i++;
 
-                list.swap(list.get(i), list.get(j));
+                Pokemon temp = list.get(i).getData();
+                list.get(i).setData(list.get(j).getData());
+                list.get(j).setData(temp);
+
+                //list.swap(list.get(i), list.get(j));
             }
         }
 
-        list.swap(list.get(right), list.get(i+1));
+        Pokemon temp = list.get(right).getData();
+        list.get(right).setData(list.get(i+1).getData());
+        list.get(i+1).setData(temp);
+
+        //list.swap(list.get(right), list.get(i+1));
 
         return i+1;
     }
@@ -102,11 +110,19 @@ public class QuickSorter {
             if (list.get(j).getData().compareTo(pivot) < 0) {
                 i++;
 
-                list.swap(list.get(i), list.get(j));
+
+                Pokemon temp = list.get(i).getData();
+                list.get(i).setData(list.get(j).getData());
+                list.get(j).setData(temp);
+                //list.swap(list.get(i), list.get(j));
             }
         }
 
-        list.swap(list.get(right), list.get(i+1));
+
+        Pokemon temp = list.get(right).getData();
+        list.get(right).setData(list.get(i+1).getData());
+        list.get(i+1).setData(temp);
+        //list.swap(list.get(right), list.get(i+1));
 
         return i+1;
     }
@@ -174,7 +190,7 @@ public class QuickSorter {
         //adding next element to the corresponding queue
         while (!stack.isEmpty()) {
             Pokemon element = stack.pop();
-            if (element.compareTo(pivot) < 0) {
+            if (element.compareTo(pivot) > 0) {
                 down.push(element);
             } else if (element.compareTo(pivot) == 0) {
                 equals.push(element);

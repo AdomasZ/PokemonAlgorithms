@@ -164,6 +164,10 @@ public class MyLinkedList<T>{
             return data;
         }
 
+        public void setData(T data) {
+            this.data = data;
+        }
+
         boolean equal(Node element) {
             return data.equals(element.data);
         }

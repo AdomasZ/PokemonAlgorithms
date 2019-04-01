@@ -163,13 +163,15 @@ public class GUI extends JFrame {
 
         //output
         JPanel outputPanel = new JPanel();
-        outputPanel.setLayout(new FlowLayout());
+        //outputPanel.setLayout(new FlowLayout());
 
         output = new JTextArea();
-        output.setPreferredSize(new Dimension(700, 200));
         output.setText("Output\n");
+        output.setEditable(false);
 
         JScrollPane scroll = new JScrollPane(output);
+        scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        scroll.setPreferredSize(new Dimension(700, 200));
 
         outputPanel.add(scroll);
 
@@ -251,14 +253,14 @@ public class GUI extends JFrame {
     public void sort() {
         String dsString = currentDataStructureSelected();
         String sString = currentSortMethodSelected();
+        String dsFull = datastructures.getSelection().getActionCommand();
+        String sFull = sorting.getSelection().getActionCommand();
 
         long time = controller.sort(dsString, sString);
-        output.setText("The " + dsString + " was sorted by the " + sString + " algorithm in " + time + " miliseconds.\n");
 
-        output.append(getDatastructureStringSorted(dsString));
+        output.setText(getDatastructureStringSorted(dsString));
+        output.append("\nThe " + dsFull + " was sorted by the " + sFull + " algorithm in " + time + " miliseconds.\n");
     }
-
-
 
     public void search() {
         String searchPart = searchTerm.getText();

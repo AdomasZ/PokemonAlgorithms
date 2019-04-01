@@ -42,7 +42,6 @@ public class Controller {
             doublyLinkedList = new MyDoublyLinkedList<>();
             readPokemons(criteria);
             String returnString = "Everything was resetted.\n";
-            returnString += binarySearchTree.inorderTraversal() + "\n";
             return returnString;
         }
         catch (IOException e) {

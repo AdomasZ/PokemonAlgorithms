@@ -106,11 +106,11 @@ class QuickSorterTest {
         stack.push(pokemon3);
         stack.push(pokemon4);
 
-        compareStack.push(pokemon4);
-        compareStack.push(pokemon3);
-        compareStack.push(pokemon);
-        compareStack.push(pokemon2);
         compareStack.push(pokemon1);
+        compareStack.push(pokemon2);
+        compareStack.push(pokemon);
+        compareStack.push(pokemon3);
+        compareStack.push(pokemon4);
 
         Stack<Pokemon> sorted = sorter.quickSort(stack);
 

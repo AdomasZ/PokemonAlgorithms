@@ -74,6 +74,10 @@ public class Pokemon implements Comparable{
         System.out.println("Compare criteria not valid. Please set the compareCriteria to one of the supported types: int, String or boolean.");
         return 0;
     }
+    @Override
+    public String toString(){
+        return "nr: " + nr + " name: " + name + " type1: " + type1 + " type2: " + type2 + " total: " + total + " HP: " + HP + " attack: " + attack + " defense: " + defense + " SPattack: " + SPattack + " SPdefense: " + SPdefense  + " speed: " + speed + " generation: " + generation + " legendary: " + legendary;
+    }
 
     public int getNr() {
         return nr;
@@ -127,8 +131,4 @@ public class Pokemon implements Comparable{
         return legendary;
     }
 
-    @Override
-    public String toString() {
-        return name;
-    }
 }

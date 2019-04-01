@@ -40,6 +40,10 @@ public class MyQueue<Item> implements Iterable<Item> {
         return item;
     }
 
+    public Item peek() {
+        return top.item;
+    }
+
 
     public void deleteAll()
     {

@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/os/BubbleSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/os/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/os/InsertionSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/QuickSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/QuickSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/BinarySearcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/BinarySearcherTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/QuickSorterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/QuickSorterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/BinarySearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BinarySearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/QuickSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/InsertionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue$MyQueueIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue$MyQueueIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Searcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BubbleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/InsertionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,35 +38,36 @@
     <session id="466924489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="45" />
+          <entry key="java" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="18791" />
+          <entry key="java" value="19135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18791" />
+          <entry key="JAVA" value="19135" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -112,24 +105,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
               <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
                 <element signature="e#4519#4520#0" expanded="true" />
                 <element signature="e#4557#4558#0" expanded="true" />
                 <element signature="e#4792#4793#0" expanded="true" />
                 <element signature="e#4832#4833#0" expanded="true" />
                 <element signature="e#5121#5122#0" expanded="true" />
                 <element signature="e#5160#5161#0" expanded="true" />
-                <element signature="method#setupRadioButtons#0;class#GUI#0" />
-                <element signature="method#search#0;class#GUI#0" />
-                <element signature="e#9919#10496#0" />
+                <element signature="e#6076#8496#0" />
+                <element signature="e#8892#8921#0" />
               </folding>
             </state>
           </provider>
@@ -138,21 +128,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="151" column="60" selection-start-line="151" selection-start-column="60" selection-end-line="151" selection-end-column="60" />
+            <state relative-caret-position="251">
+              <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#104#135#0" expanded="true" />
                 <element signature="method#Controller#0;class#Controller#0" />
                 <element signature="method#reset#0;class#Controller#0" />
                 <element signature="method#sort#0;class#Controller#0" />
-                <element signature="method#readPokemons#0;class#Main#0" />
                 <element signature="method#getQueueString#0;class#Controller#0" />
                 <element signature="method#getStackString#0;class#Controller#0" />
                 <element signature="method#getLinkedListString#0;class#Controller#0" />
-                <element signature="method#getLinkedListString#1;class#Controller#0" />
-                <element signature="method#getLinkedListString#1;class#Controller#0" />
-                <element signature="method#addPokemonToDatastructures#0;class#Main#0" />
                 <element signature="method#sortLinkedList#0;class#Controller#0" />
                 <element signature="method#sortDoublyLinkedList#0;class#Controller#0" />
                 <element signature="method#sortQueue#0;class#Controller#0" />
@@ -168,49 +153,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/BubbleSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/InsertionSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
+            <state relative-caret-position="1088">
               <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
               <folding>
                 <element signature="method#Pokemon#0;class#Pokemon#0" />
                 <element signature="method#compareTo#0;class#Pokemon#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -268,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
         <option value="$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
         <option value="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/com/os/Node.java" />
@@ -280,10 +245,13 @@
         <option value="$PROJECT_DIR$/src/com/os/BinarySearcher.java" />
         <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/com/os/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/os/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/com/os/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/os/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/os/InsertionSorter.java" />
+        <option value="$PROJECT_DIR$/src/com/os/BubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" />
       </list>
     </option>
   </component>
@@ -304,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,6 +305,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -480,6 +448,7 @@
       <workItem from="1553686975612" duration="3247000" />
       <workItem from="1554020119969" duration="21070000" />
       <workItem from="1554125682408" duration="13480000" />
+      <workItem from="1554139711225" duration="530000" />
     </task>
     <servers />
   </component>
@@ -516,13 +485,43 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39150000" />
+    <option name="totallyTimeSpent" value="39680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2972973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47505197" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32640332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -551,36 +550,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2987952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +559,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/os/Queue.java" />
     <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -700,19 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -730,23 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -842,33 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="78" column="105" selection-start-line="78" selection-start-column="105" selection-end-line="78" selection-end-column="105" />
-          <folding>
-            <element signature="docComment;method#quickSort#0;class#QuickSorter#0" />
-            <element signature="method#quickSort#0;class#QuickSorter#0" />
-            <element signature="docComment;method#quickSort#1;class#QuickSorter#0" />
-            <element signature="method#quickSort#1;class#QuickSorter#0" />
-            <element signature="docComment;method#partition#0;class#QuickSorter#0" />
-            <element signature="e#1230#1261#0" expanded="true" />
-            <element signature="method#partition#0;class#QuickSorter#0" />
-            <element signature="docComment;method#quickSort#2;class#QuickSorter#0" />
-            <element signature="method#quickSort#2;class#QuickSorter#0" />
-            <element signature="docComment;method#quickSort#3;class#QuickSorter#0" />
-            <element signature="method#quickSort#3;class#QuickSorter#0" />
-            <element signature="docComment;method#partition#1;class#QuickSorter#0" />
-            <element signature="e#2916#2947#0" expanded="true" />
-            <element signature="method#partition#1;class#QuickSorter#0" />
-            <element signature="docComment;method#quickSort#2;class#QuickSorter#0" />
-            <element signature="method#quickSort#2;class#QuickSorter#0" />
-            <element signature="docComment;method#quickSort#3;class#QuickSorter#0" />
-            <element signature="method#quickSort#3;class#QuickSorter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -881,9 +793,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
+        <state relative-caret-position="1088">
           <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
           <folding>
             <element signature="method#Pokemon#0;class#Pokemon#0" />
@@ -892,24 +811,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="-1500">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/InsertionSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="328">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+          <folding>
+            <element signature="docComment;method#quickSort#0;class#QuickSorter#0" />
+            <element signature="method#quickSort#0;class#QuickSorter#0" />
+            <element signature="docComment;method#quickSort#1;class#QuickSorter#0" />
+            <element signature="method#quickSort#1;class#QuickSorter#0" />
+            <element signature="docComment;method#partition#0;class#QuickSorter#0" />
+            <element signature="method#partition#0;class#QuickSorter#0" />
+            <element signature="docComment;method#quickSort#2;class#QuickSorter#0" />
+            <element signature="method#quickSort#2;class#QuickSorter#0" />
+            <element signature="docComment;method#quickSort#3;class#QuickSorter#0" />
+            <element signature="method#quickSort#3;class#QuickSorter#0" />
+            <element signature="docComment;method#partition#1;class#QuickSorter#0" />
+            <element signature="method#partition#1;class#QuickSorter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4519#4520#0" expanded="true" />
+            <element signature="e#4557#4558#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#5121#5122#0" expanded="true" />
+            <element signature="e#5160#5161#0" expanded="true" />
+            <element signature="e#6076#8496#0" />
+            <element signature="e#8892#8921#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,30 +877,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/BubbleSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/InsertionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="method#insertionSort#0;class#InsertionSorter#0" />
+            <element signature="method#isGreaterThanFirst#0;class#InsertionSorter#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="151" column="60" selection-start-line="151" selection-start-column="60" selection-end-line="151" selection-end-column="60" />
+        <state relative-caret-position="251">
+          <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#104#135#0" expanded="true" />
             <element signature="method#Controller#0;class#Controller#0" />
             <element signature="method#reset#0;class#Controller#0" />
             <element signature="method#sort#0;class#Controller#0" />
-            <element signature="method#readPokemons#0;class#Main#0" />
             <element signature="method#getQueueString#0;class#Controller#0" />
             <element signature="method#getStackString#0;class#Controller#0" />
             <element signature="method#getLinkedListString#0;class#Controller#0" />
-            <element signature="method#getLinkedListString#1;class#Controller#0" />
-            <element signature="method#getLinkedListString#1;class#Controller#0" />
-            <element signature="method#addPokemonToDatastructures#0;class#Main#0" />
             <element signature="method#sortLinkedList#0;class#Controller#0" />
             <element signature="method#sortDoublyLinkedList#0;class#Controller#0" />
             <element signature="method#sortQueue#0;class#Controller#0" />
@@ -957,23 +913,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/BubbleSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#4557#4558#0" expanded="true" />
-            <element signature="e#4792#4793#0" expanded="true" />
-            <element signature="e#4832#4833#0" expanded="true" />
-            <element signature="e#5121#5122#0" expanded="true" />
-            <element signature="e#5160#5161#0" expanded="true" />
-            <element signature="method#setupRadioButtons#0;class#GUI#0" />
-            <element signature="method#search#0;class#GUI#0" />
-            <element signature="e#9919#10496#0" />
+            <element signature="method#bubbleSort#0;class#BubbleSorter#0" />
+            <element signature="method#bubbleSort#1;class#BubbleSorter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>

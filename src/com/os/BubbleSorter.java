@@ -40,4 +40,14 @@ public class BubbleSorter {
         return myLinkedList;
     }
 
+
+    //TODO
+    public Stack<Pokemon> bubbleSort(Stack<Pokemon> stack) {
+        return null;
+    }
+
+    //TODO
+    public MyQueue<Pokemon> bubbleSort(MyQueue<Pokemon> queue) {
+        return null;
+    }
 }

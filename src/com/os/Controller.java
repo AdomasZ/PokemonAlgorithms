@@ -168,7 +168,6 @@ public class Controller {
         doublyLinkedList.add(pokemon);
     }
 
-    //TODO
     private void sortLinkedList(String sortingAlgorithm) {
         if(sortingAlgorithm.equals("bs")) {
             //sort with bubble sort
@@ -177,12 +176,12 @@ public class Controller {
         else if (sortingAlgorithm.equals("sbs")) {
             //sort with smart bubble sort
             //TODO
-            //sortedLinkedList = sorter.smartBubbleSorter.smartBubbleSort(linkedList);
+            sortedLinkedList = sorter.smartBubbleSorter.smartBubbleSort(linkedList);
         }
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
             //TODO
-            //sortedLinkedList = sorter.insertionSorter.insertionSort(linkedList);
+            sortedLinkedList = sorter.insertionSorter.insertionSort(linkedList);
         }
         else {
             //sort with quick sort
@@ -190,7 +189,6 @@ public class Controller {
         }
     }
 
-    //TODO
     private void sortDoublyLinkedList(String sortingAlgorithm) {
         if(sortingAlgorithm.equals("bs")) {
             //sort with bubble sort
@@ -198,13 +196,11 @@ public class Controller {
         }
         else if (sortingAlgorithm.equals("sbs")) {
             //sort with smart bubble sort
-            //TODO
-            //sortedDoublyLinkedList = sorter.smartBubbleSorter.smartBubbleSort(doublyLinkedList);
+            sortedDoublyLinkedList = sorter.smartBubbleSorter.smartBubbleSort(doublyLinkedList);
         }
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
-            //TODO
-            //sortedDoublyLinkedList = sorter.insertionSorter.insertionSort(doublyLinkedList);
+            sortedDoublyLinkedList = sorter.insertionSorter.insertionSort(doublyLinkedList);
         }
         else {
             //sort with quick sort
@@ -212,21 +208,20 @@ public class Controller {
         }
     }
 
-    //TODO
     private void sortQueue(String sortingAlgorithm) {
         if(sortingAlgorithm.equals("bs")) {
             //sort with bubble sort
-            //sortedQueue = sorter.bubbleSorter.bubbleSort(queue);
+            sortedQueue = sorter.bubbleSorter.bubbleSort(queue);
         }
         else if (sortingAlgorithm.equals("sbs")) {
             //sort with smart bubble sort
             //TODO
-            //sortedQueue = sorter.smartBubbleSorter.smartBubbleSort(queue);
+            sortedQueue = sorter.smartBubbleSorter.smartBubbleSort(queue);
         }
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
             //TODO
-            //sortedQueue = sorter.insertionSorter.insertionSort(queue);
+            sortedQueue = sorter.insertionSorter.insertionSort(queue);
         }
         else {
             //sort with quick sort
@@ -234,22 +229,18 @@ public class Controller {
         }
     }
 
-    //TODO
     private void sortStack(String sortingAlgorithm) {
         if(sortingAlgorithm.equals("bs")) {
             //sort with bubble sort
-            //TODO
-            //sortedStack = sorter.bubbleSorter.bubbleSort(stack);
+            sortedStack = sorter.bubbleSorter.bubbleSort(stack);
         }
         else if (sortingAlgorithm.equals("sbs")) {
             //sort with smart bubble sort
-            //TODO
-            //sortedStack = sorter.smartBubbleSorter.smartBubbleSort(stack);
+            sortedStack = sorter.smartBubbleSorter.smartBubbleSort(stack);
         }
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
-            //TODO
-            //sortedStack = sorter.insertionSorter.insertionSort(stack);
+            sortedStack = sorter.insertionSorter.insertionSort(stack);
         }
         else {
             //sort with quick sort

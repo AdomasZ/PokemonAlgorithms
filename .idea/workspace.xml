@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/os/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/QuickSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +21,7 @@
     <session id="466924489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -46,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8549" />
+          <entry key="java" value="8670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8549" />
+          <entry key="JAVA" value="8670" />
         </counts>
       </usages-collector>
     </session>
@@ -115,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+            <state relative-caret-position="404">
+              <caret line="144" column="11" lean-forward="true" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
               <folding>
                 <element signature="docComment;method#quickSort#0;class#QuickSorter#0" />
                 <element signature="method#quickSort#0;class#QuickSorter#0" />
@@ -125,6 +121,7 @@
                 <element signature="docComment;method#partition#0;class#QuickSorter#0" />
                 <element signature="method#partition#0;class#QuickSorter#0" />
                 <element signature="docComment;method#quickSort#2;class#QuickSorter#0" />
+                <element signature="method#quickSort#2;class#QuickSorter#0" />
                 <element signature="docComment;method#quickSort#3;class#QuickSorter#0" />
               </folding>
             </state>
@@ -134,8 +131,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+            <state relative-caret-position="170">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="method#testQuickSortLinkedList#0;class#QuickSorterTest#0" />
+                <element signature="method#testQuickSortQueue#0;class#QuickSorterTest#0" />
+                <element signature="method#testQuickSortStack#0;class#QuickSorterTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,7 +265,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554057194065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554117540491" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -394,20 +396,11 @@
       <updated>1553601695725</updated>
       <workItem from="1553601699223" duration="1190000" />
       <workItem from="1553686975612" duration="3247000" />
-      <workItem from="1554020119969" duration="19564000" />
+      <workItem from="1554020119969" duration="21070000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickSorterTest_testQuickSortQueue - 2019.03.31 at 19h 29m 00s.xml">
-      <configuration name="QuickSorterTest.testQuickSortQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuickSorterTest_testQuickSortQueue - 2019.03.31 at 19h 29m 12s.xml">
-      <configuration name="QuickSorterTest.testQuickSortQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuickSorterTest_testQuickSortQueue - 2019.03.31 at 19h 31m 15s.xml">
-      <configuration name="QuickSorterTest.testQuickSortQueue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuickSorterTest_testQuickSortQueue - 2019.03.31 at 19h 32m 28s.xml">
       <configuration name="QuickSorterTest.testQuickSortQueue" configurationId="JUnit" />
     </history-entry>
@@ -429,15 +422,23 @@
     <history-entry file="QuickSorterTest_testQuickSortStack - 2019.03.31 at 20h 25m 45s.xml">
       <configuration name="QuickSorterTest.testQuickSortStack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QuickSorterTest_testQuickSortStack - 2019.03.31 at 20h 30m 53s.xml">
+      <configuration name="QuickSorterTest.testQuickSortStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSorterTest_testQuickSortStack - 2019.03.31 at 20h 31m 24s.xml">
+      <configuration name="QuickSorterTest.testQuickSortStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_PokemonAlgorithms - 2019.03.31 at 20h 33m 19s.xml">
+      <configuration name="All in PokemonAlgorithms" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24164000" />
+    <option name="totallyTimeSpent" value="25670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.69365424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,7 +447,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2972973" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2972973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47505197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -722,15 +723,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+        <state relative-caret-position="170">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="method#testQuickSortLinkedList#0;class#QuickSorterTest#0" />
+            <element signature="method#testQuickSortQueue#0;class#QuickSorterTest#0" />
+            <element signature="method#testQuickSortStack#0;class#QuickSorterTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        <state relative-caret-position="404">
+          <caret line="144" column="11" lean-forward="true" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
           <folding>
             <element signature="docComment;method#quickSort#0;class#QuickSorter#0" />
             <element signature="method#quickSort#0;class#QuickSorter#0" />
@@ -739,6 +745,7 @@
             <element signature="docComment;method#partition#0;class#QuickSorter#0" />
             <element signature="method#partition#0;class#QuickSorter#0" />
             <element signature="docComment;method#quickSort#2;class#QuickSorter#0" />
+            <element signature="method#quickSort#2;class#QuickSorter#0" />
             <element signature="docComment;method#quickSort#3;class#QuickSorter#0" />
           </folding>
         </state>

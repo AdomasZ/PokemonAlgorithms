@@ -75,6 +75,16 @@ public class MyQueue<Item> implements Iterable<Item> {
         return size;
     }
 
+    @Override
+    public String toString() {
+        String returnString = "";
+        Iterator<Item> it = iterator();
+        while(it.hasNext()) {
+            returnString += it.next().toString() + "\n";
+        }
+        return returnString;
+    }
+
     //Iterator for traversing queue items
     public Iterator<Item> iterator()
     {

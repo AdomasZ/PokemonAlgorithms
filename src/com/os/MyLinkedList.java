@@ -131,6 +131,15 @@ public class MyLinkedList<T>{
 
     }
 
+    @Override
+    public String toString() {
+        String returnString = "";
+        for(int i = 0; i < size() - 1; i++) {
+            returnString += get(i).data + "\n";
+        }
+        return returnString;
+    }
+
     public int size(){
         return size;
     }

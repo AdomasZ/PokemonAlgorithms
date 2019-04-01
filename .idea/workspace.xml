@@ -3,21 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BubbleSorter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/InsertionSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyDoublyLinkedList$DoubleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyDoublyLinkedList$DoubleNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue$MyQueueIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue$MyQueueIterator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Pokemon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Searcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SequentialSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SequentialSearcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BubbleSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/os/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/InsertionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/os/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,36 +45,36 @@
     <session id="466924489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="50" />
+          <entry key="java" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="50" />
+          <entry key="JAVA" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="19135" />
+          <entry key="java" value="21048" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19135" />
+          <entry key="JAVA" value="21048" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -108,40 +115,90 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+            <state relative-caret-position="577">
+              <caret line="358" column="90" lean-forward="true" selection-start-line="358" selection-start-column="90" selection-end-line="358" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1876#6070#0" />
                 <element signature="e#4519#4520#0" expanded="true" />
                 <element signature="e#4557#4558#0" expanded="true" />
                 <element signature="e#4792#4793#0" expanded="true" />
                 <element signature="e#4832#4833#0" expanded="true" />
                 <element signature="e#5121#5122#0" expanded="true" />
                 <element signature="e#5160#5161#0" expanded="true" />
-                <element signature="e#6076#8496#0" />
-                <element signature="e#8892#8921#0" />
+                <element signature="e#9220#9825#0" />
+                <element signature="e#10661#11290#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="178" column="87" selection-start-line="178" selection-start-column="87" selection-end-line="178" selection-end-column="87" />
+              <folding>
+                <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#0;class#BinarySearcher#0" />
+                <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
+                <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#1;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#2;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#3;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#4;class#BinarySearcher#0" />
+                <element signature="docComment;method#binarySearch#5;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#5;class#BinarySearcher#0" />
+                <element signature="docComment;method#binarySearch#6;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#6;class#BinarySearcher#0" />
+                <element signature="docComment;method#binarySearch#7;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#7;class#BinarySearcher#0" />
+                <element signature="docComment;method#binarySearch#8;class#BinarySearcher#0" />
+                <element signature="method#binarySearch#8;class#BinarySearcher#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+              <folding>
+                <element signature="method#testBinarySearchBinarySearchTree#0;class#BinarySearcherTest#0" />
+                <element signature="method#testBinarySearchLinkedList#0;class#BinarySearcherTest#0" />
+                <element signature="method#testBinarySearchDoublyLinkedList#0;class#BinarySearcherTest#0" />
+                <element signature="method#testBinarySearchStack#0;class#BinarySearcherTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/os/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
+            <state relative-caret-position="359">
+              <caret line="330" column="78" selection-start-line="330" selection-start-column="78" selection-end-line="330" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Controller#0;class#Controller#0" />
                 <element signature="method#reset#0;class#Controller#0" />
                 <element signature="method#sort#0;class#Controller#0" />
+                <element signature="method#readPokemons#0;class#Controller#0" />
                 <element signature="method#getQueueString#0;class#Controller#0" />
                 <element signature="method#getStackString#0;class#Controller#0" />
                 <element signature="method#getLinkedListString#0;class#Controller#0" />
+                <element signature="method#getDoublyLinkedListString#0;class#Controller#0" />
+                <element signature="method#getBinarySearchTreeString#0;class#Controller#0" />
+                <element signature="method#addPokemonToDatastructures#0;class#Controller#0" />
                 <element signature="method#sortLinkedList#0;class#Controller#0" />
                 <element signature="method#sortDoublyLinkedList#0;class#Controller#0" />
                 <element signature="method#sortQueue#0;class#Controller#0" />
                 <element signature="method#sortStack#0;class#Controller#0" />
+                <element signature="method#searchLinkedList#0;class#Controller#0" />
+                <element signature="method#searchDoublyLinkedList#0;class#Controller#0" />
+                <element signature="method#searchQueue#0;class#Controller#0" />
+                <element signature="method#searchStack#0;class#Controller#0" />
                 <element signature="method#sequentialNameSearch#0;class#Controller#0" />
                 <element signature="method#bubbleSort#0;class#Controller#0" />
                 <element signature="method#insertionSort#0;class#Controller#0" />
@@ -153,31 +210,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+        <entry file="file://$PROJECT_DIR$/src/com/os/SequentialSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+            <state relative-caret-position="425">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
               <folding>
-                <element signature="method#Pokemon#0;class#Pokemon#0" />
-                <element signature="method#compareTo#0;class#Pokemon#0" />
+                <element signature="docComment;method#sequentialSearch#0;class#SequentialSearcher#0" />
+                <element signature="method#sequentialSearch#0;class#SequentialSearcher#0" />
+                <element signature="docComment;method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+                <element signature="method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+                <element signature="e#1853#1854#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -224,34 +283,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/os/Stack.java" />
         <option value="$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/Queue.java" />
         <option value="$PROJECT_DIR$/src/com/os/MyQueueTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/Main.java" />
         <option value="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
         <option value="$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java" />
-        <option value="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" />
         <option value="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/com/os/Node.java" />
         <option value="$PROJECT_DIR$/src/com/os/MyList.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/os/QuickSorter.java" />
-        <option value="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" />
         <option value="$PROJECT_DIR$/src/com/os/BinarySearcher.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/com/os/Test.java" />
         <option value="$PROJECT_DIR$/src/com/os/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/com/os/GUI.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/os/InsertionSorter.java" />
         <option value="$PROJECT_DIR$/src/com/os/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/os/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" />
+        <option value="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" />
+        <option value="$PROJECT_DIR$/src/com/os/GUI.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Controller.java" />
       </list>
     </option>
   </component>
@@ -315,7 +374,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554139346628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554143781645" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -365,14 +424,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in PokemonAlgorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokemonAlgorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BinarySearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokemonAlgorithms" />
       <extension name="coverage">
@@ -383,6 +434,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.os" />
       <option name="MAIN_CLASS_NAME" value="com.os.BinarySearcherTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearcherTest.testBinarySearchQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokemonAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.os.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.os" />
+      <option name="MAIN_CLASS_NAME" value="com.os.BinarySearcherTest" />
+      <option name="METHOD_NAME" value="testBinarySearchQueue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -418,19 +485,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in PokemonAlgorithms" />
       <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
       <item itemvalue="JUnit.QuickSorterTest" />
       <item itemvalue="JUnit.BinarySearcherTest" />
       <item itemvalue="Application.GUI" />
+      <item itemvalue="JUnit.BinarySearcherTest.testBinarySearchQueue" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GUI" />
+        <item itemvalue="JUnit.BinarySearcherTest.testBinarySearchQueue" />
         <item itemvalue="JUnit.BinarySearcherTest" />
         <item itemvalue="JUnit.QuickSorterTest" />
         <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
-        <item itemvalue="JUnit.All in PokemonAlgorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -449,22 +516,11 @@
       <workItem from="1554020119969" duration="21070000" />
       <workItem from="1554125682408" duration="13480000" />
       <workItem from="1554139711225" duration="530000" />
+      <workItem from="1554140611141" duration="3169000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 40m 40s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 40m 47s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 40m 51s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 41m 16s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 41m 29s.xml">
       <configuration name="BinarySearcherTest" configurationId="JUnit" />
     </history-entry>
@@ -483,14 +539,27 @@
     <history-entry file="BinarySearcherTest - 2019.04.01 at 16h 58m 44s.xml">
       <configuration name="BinarySearcherTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinarySearcherTest_testBinarySearchQueue - 2019.04.01 at 20h 20m 05s.xml">
+      <configuration name="BinarySearcherTest.testBinarySearchQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearcherTest_testBinarySearchQueue - 2019.04.01 at 20h 20m 28s.xml">
+      <configuration name="BinarySearcherTest.testBinarySearchQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearcherTest_testBinarySearchQueue - 2019.04.01 at 20h 21m 33s.xml">
+      <configuration name="BinarySearcherTest.testBinarySearchQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearcherTest_testBinarySearchQueue - 2019.04.01 at 20h 21m 55s.xml">
+      <configuration name="BinarySearcherTest.testBinarySearchQueue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39680000" />
+    <option name="totallyTimeSpent" value="42849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -608,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -655,19 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/SequentialSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="docComment;method#sequentialSearch#0;class#SequentialSearcher#0" />
-            <element signature="method#sequentialSearch#0;class#SequentialSearcher#0" />
-            <element signature="docComment;method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
-            <element signature="method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -686,98 +735,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding>
-            <element signature="method#swapRight#0;class#MyLinkedList#0" />
-            <element signature="method#swap#0;class#MyLinkedList#0" />
-            <element signature="method#printList#0;class#MyLinkedList#0" />
-            <element signature="method#get#0;class#MyLinkedList#0" />
-            <element signature="method#find#0;class#MyLinkedList#0" />
-            <element signature="method#add#0;class#MyLinkedList#0" />
-            <element signature="method#add#1;class#MyLinkedList#0" />
-            <element signature="e#3634#3635#0" expanded="true" />
-            <element signature="e#3674#3675#0" expanded="true" />
-            <element signature="e#3698#3699#0" expanded="true" />
-            <element signature="e#3738#3739#0" expanded="true" />
-            <element signature="e#3878#3879#0" expanded="true" />
-            <element signature="e#3913#3914#0" expanded="true" />
-            <element signature="e#3952#3953#0" expanded="true" />
-            <element signature="e#4008#4009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#2484#2485#0" expanded="true" />
-            <element signature="e#2511#2512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="178" column="87" selection-start-line="178" selection-start-column="87" selection-end-line="178" selection-end-column="87" />
-          <folding>
-            <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#0;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
-            <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#1;class#BinarySearcher#0" />
-            <element signature="e#1945#1976#0" expanded="true" />
-            <element signature="method#binarySearch#2;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#3;class#BinarySearcher#0" />
-            <element signature="e#2737#2768#0" expanded="true" />
-            <element signature="method#binarySearch#4;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearch#5;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#5;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearch#6;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearch#7;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#7;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearch#8;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#8;class#BinarySearcher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-          <folding>
-            <element signature="method#testBinarySearchBinarySearchTree#0;class#BinarySearcherTest#0" />
-            <element signature="method#testBinarySearchLinkedList#0;class#BinarySearcherTest#0" />
-            <element signature="method#testBinarySearchDoublyLinkedList#0;class#BinarySearcherTest#0" />
-            <element signature="method#testBinarySearchStack#0;class#BinarySearcherTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,34 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
-          <folding>
-            <element signature="method#Pokemon#0;class#Pokemon#0" />
-            <element signature="method#compareTo#0;class#Pokemon#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1500">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,24 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#4557#4558#0" expanded="true" />
-            <element signature="e#4792#4793#0" expanded="true" />
-            <element signature="e#4832#4833#0" expanded="true" />
-            <element signature="e#5121#5122#0" expanded="true" />
-            <element signature="e#5160#5161#0" expanded="true" />
-            <element signature="e#6076#8496#0" />
-            <element signature="e#8892#8921#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -888,31 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Controller#0;class#Controller#0" />
-            <element signature="method#reset#0;class#Controller#0" />
-            <element signature="method#sort#0;class#Controller#0" />
-            <element signature="method#getQueueString#0;class#Controller#0" />
-            <element signature="method#getStackString#0;class#Controller#0" />
-            <element signature="method#getLinkedListString#0;class#Controller#0" />
-            <element signature="method#sortLinkedList#0;class#Controller#0" />
-            <element signature="method#sortDoublyLinkedList#0;class#Controller#0" />
-            <element signature="method#sortQueue#0;class#Controller#0" />
-            <element signature="method#sortStack#0;class#Controller#0" />
-            <element signature="method#sequentialNameSearch#0;class#Controller#0" />
-            <element signature="method#bubbleSort#0;class#Controller#0" />
-            <element signature="method#insertionSort#0;class#Controller#0" />
-            <element signature="method#printArray#0;class#Controller#0" />
-            <element signature="method#testSwap#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/BubbleSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -924,17 +818,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="method#Pokemon#0;class#Pokemon#0" />
+            <element signature="method#compareTo#0;class#Pokemon#0" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="method#setCompareCriteria#1;class#Pokemon#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/SmartBubbleSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="221">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="140" column="5" lean-forward="true" selection-start-line="133" selection-start-column="4" selection-end-line="140" selection-end-column="5" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
+            <element signature="method#swapRight#0;class#MyLinkedList#0" />
+            <element signature="method#swap#0;class#MyLinkedList#0" />
+            <element signature="method#printList#0;class#MyLinkedList#0" />
+            <element signature="method#get#0;class#MyLinkedList#0" />
+            <element signature="method#find#0;class#MyLinkedList#0" />
+            <element signature="method#add#0;class#MyLinkedList#0" />
+            <element signature="method#add#1;class#MyLinkedList#0" />
+            <element signature="class#Node#0;class#MyLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyDoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <element signature="class#DoubleNode#0;class#MyDoublyLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="84" column="28" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="84" selection-end-column="28" />
+          <folding>
+            <element signature="class#Node#0;class#MyQueue#0" />
+            <element signature="method#MyQueue#0;class#MyQueue#0" />
+            <element signature="method#delete#0;class#MyQueue#0" />
+            <element signature="method#deleteAll#0;class#MyQueue#0" />
+            <element signature="method#insert#0;class#MyQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/SequentialSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;method#sequentialSearch#0;class#SequentialSearcher#0" />
+            <element signature="method#sequentialSearch#0;class#SequentialSearcher#0" />
+            <element signature="docComment;method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+            <element signature="method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+          <folding>
+            <element signature="method#testBinarySearchBinarySearchTree#0;class#BinarySearcherTest#0" />
+            <element signature="method#testBinarySearchLinkedList#0;class#BinarySearcherTest#0" />
+            <element signature="method#testBinarySearchDoublyLinkedList#0;class#BinarySearcherTest#0" />
+            <element signature="method#testBinarySearchStack#0;class#BinarySearcherTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="178" column="87" selection-start-line="178" selection-start-column="87" selection-end-line="178" selection-end-column="87" />
+          <folding>
+            <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#0;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
+            <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#1;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#2;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#3;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#4;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearch#5;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#5;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearch#6;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#6;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearch#7;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#7;class#BinarySearcher#0" />
+            <element signature="docComment;method#binarySearch#8;class#BinarySearcher#0" />
+            <element signature="method#binarySearch#8;class#BinarySearcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="358" column="90" lean-forward="true" selection-start-line="358" selection-start-column="90" selection-end-line="358" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1876#6070#0" />
+            <element signature="e#4519#4520#0" expanded="true" />
+            <element signature="e#4557#4558#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#5121#5122#0" expanded="true" />
+            <element signature="e#5160#5161#0" expanded="true" />
+            <element signature="e#9220#9825#0" />
+            <element signature="e#10661#11290#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="330" column="78" selection-start-line="330" selection-start-column="78" selection-end-line="330" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reset#0;class#Controller#0" />
+            <element signature="method#sort#0;class#Controller#0" />
+            <element signature="method#readPokemons#0;class#Controller#0" />
+            <element signature="method#getQueueString#0;class#Controller#0" />
+            <element signature="method#getStackString#0;class#Controller#0" />
+            <element signature="method#getLinkedListString#0;class#Controller#0" />
+            <element signature="method#getDoublyLinkedListString#0;class#Controller#0" />
+            <element signature="method#getBinarySearchTreeString#0;class#Controller#0" />
+            <element signature="method#addPokemonToDatastructures#0;class#Controller#0" />
+            <element signature="method#sortLinkedList#0;class#Controller#0" />
+            <element signature="method#sortDoublyLinkedList#0;class#Controller#0" />
+            <element signature="method#sortQueue#0;class#Controller#0" />
+            <element signature="method#sortStack#0;class#Controller#0" />
+            <element signature="method#searchLinkedList#0;class#Controller#0" />
+            <element signature="method#searchDoublyLinkedList#0;class#Controller#0" />
+            <element signature="method#searchQueue#0;class#Controller#0" />
+            <element signature="method#searchStack#0;class#Controller#0" />
+            <element signature="method#sequentialNameSearch#0;class#Controller#0" />
+            <element signature="method#bubbleSort#0;class#Controller#0" />
+            <element signature="method#insertionSort#0;class#Controller#0" />
+            <element signature="method#printArray#0;class#Controller#0" />
+            <element signature="method#testSwap#0;class#Controller#0" />
           </folding>
         </state>
       </provider>

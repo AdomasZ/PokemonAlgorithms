@@ -17,15 +17,19 @@ public class Controller {
     private static Stack<Pokemon> sortedStack = new Stack<>();
     private static MyQueue<Pokemon> sortedQueue = new MyQueue<>();
 
-    private Sorter sorter = new Sorter();
+    private Sorter sorter;
+    private Searcher searcher;
 
     public Controller() {
+        sorter = new Sorter();
+        searcher = new Searcher();
         try {
             readPokemons("Name");
         }
         catch (IOException e) {
             System.out.println("Problems.");
         }
+
 
     }
 
@@ -73,6 +77,33 @@ public class Controller {
             sortStack(sortingAlgorithm);
             long end = System.currentTimeMillis();
             return end - start;
+        }
+        else {
+            return -1;
+        }
+    }
+
+    public int search(String dataStructure, String searchAlgorithm, Pokemon data) {
+        if(dataStructure.equals("ll")) {
+            //search the linked list
+            return searchLinkedList(searchAlgorithm, data);
+        }
+        else if (dataStructure.equals("dll")){
+            //search doubly linked list
+            return searchDoublyLinkedList(searchAlgorithm, data);
+        }
+        else if (dataStructure.equals("q")) {
+            //search queue
+            return searchQueue(searchAlgorithm, data);
+        }
+        else if (dataStructure.equals("s")) {
+            //search stack
+            return searchStack(searchAlgorithm, data);
+        }
+        else if (dataStructure.equals("bst")) {
+            //search binary search tree
+            return searchBinarySearchTree(searchAlgorithm, data);
+
         }
         else {
             return -1;
@@ -245,6 +276,67 @@ public class Controller {
         else {
             //sort with quick sort
             sortedStack = sorter.quickSorter.quickSort(stack);
+        }
+    }
+
+
+    private int searchLinkedList(String searchAlgorithm, Pokemon data) {
+        if(searchAlgorithm.equals("ss")){
+            return searcher.sequentialSearcher.sequentialSearch(sortedLinkedList, data);
+        }
+        else if(searchAlgorithm.equals("bs")) {
+            return searcher.binarySearcher.binarySearch(linkedList, data);
+        }
+        else {
+            return -1;
+        }
+    }
+
+    private int searchDoublyLinkedList(String searchAlgorithm, Pokemon data) {
+        if(searchAlgorithm.equals("ss")){
+            return searcher.sequentialSearcher.sequentialSearch(sortedDoublyLinkedList, data);
+        }
+        else if(searchAlgorithm.equals("bs")) {
+            return searcher.binarySearcher.binarySearch(sortedDoublyLinkedList, data);
+        }
+        else {
+            return -1;
+        }
+    }
+
+    private int searchQueue(String searchAlgorithm, Pokemon data) {
+        if(searchAlgorithm.equals("ss")){
+            return searcher.sequentialSearcher.sequentialSearch(sortedQueue, data);
+        }
+        else if(searchAlgorithm.equals("bs")) {
+            return searcher.binarySearcher.binarySearch(sortedQueue, data);
+        }
+        else {
+            return -1;
+        }
+    }
+
+    private int searchStack(String searchAlgorithm, Pokemon data) {
+        if(searchAlgorithm.equals("ss")){
+            return searcher.sequentialSearcher.sequentialSearch(sortedStack, data);
+        }
+        else if(searchAlgorithm.equals("bs")) {
+            return searcher.binarySearcher.binarySearch(sortedStack, data);
+        }
+        else {
+            return -1;
+        }
+    }
+
+    private int searchBinarySearchTree(String searchAlgorithm, Pokemon data) {
+        if(searchAlgorithm.equals("ss")){
+            return searcher.sequentialSearcher.sequentialSearch(binarySearchTree, data);
+        }
+        else if(searchAlgorithm.equals("bs")) {
+            return searcher.binarySearcher.binarySearch(binarySearchTree, data);
+        }
+        else {
+            return -1;
         }
     }
 

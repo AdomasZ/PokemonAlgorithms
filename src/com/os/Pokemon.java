@@ -75,8 +75,8 @@ public class Pokemon implements Comparable{
         return 0;
     }
     @Override
-    public String toString(){
-        return "nr: " + nr + " name: " + name + " type1: " + type1 + " type2: " + type2 + " total: " + total + " HP: " + HP + " attack: " + attack + " defense: " + defense + " SPattack: " + SPattack + " SPdefense: " + SPdefense  + " speed: " + speed + " generation: " + generation + " legendary: " + legendary;
+    public String toString() {
+        return nr + " " + name;
     }
 
     public int getNr() {
@@ -139,5 +139,7 @@ public class Pokemon implements Comparable{
             compareCriteria = nr;
         }
     }
+
+
 
 }

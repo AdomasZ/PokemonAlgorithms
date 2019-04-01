@@ -129,7 +129,7 @@ class BinarySearcherTest {
         Pokemon pokemon3 = new Pokemon(4, "Four", "Fire", "Water", 500, 4, 4, 4, 4, 4, 4, 4, false);
         Pokemon pokemon4 = new Pokemon(5, "Five", "Fire", "Water", 500, 4, 4, 4, 4, 4, 4, 4, false);
 
-        Pokemon pokemon5 = new Pokemon(6, "Six", "Fire", "Water", 500, 4, 4, 4, 4, 4, 4, 4, false);
+        Pokemon pokemon5 = new Pokemon(6, "Six", "Bla", "Water", 00, 4, 4, 4, 4, 4, 4, 4, true);
 
         MyQueue<Pokemon> queue = new MyQueue<>();
 

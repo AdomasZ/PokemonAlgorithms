@@ -192,8 +192,8 @@ public class GUI extends JFrame {
         queue.setActionCommand(queueString);
         stack = new JRadioButton(stackString);
         stack.setActionCommand(stackString);
-        binarySearchTree = new JRadioButton(binarySearchString);
-        binarySearchTree.setActionCommand(binarySearchString);
+        binarySearchTree = new JRadioButton(binarySearchTreeString);
+        binarySearchTree.setActionCommand(binarySearchTreeString);
 
         linkedList.setSelected(true);
 
@@ -211,7 +211,7 @@ public class GUI extends JFrame {
         smartBubbleSort.setActionCommand(smartBubbleSortString);
         insertionSort = new JRadioButton(insertionSortString);
         insertionSort.setActionCommand(insertionSortString);
-        quickSort = new JRadioButton(queueString);
+        quickSort = new JRadioButton(quickSortString);
         quickSort.setActionCommand(quickSortString);
 
         bubbleSort.setSelected(true);
@@ -261,6 +261,24 @@ public class GUI extends JFrame {
 
 
     public void search() {
+        String searchPart = searchTerm.getText();
+        String nameString = "";
+        int nr = 0;
+        String ds = currentDataStructureSelected();
+        String sa = currentSearchAlgorithm();
+        if(number.isSelected()) {
+            try {
+                nr = Integer.parseInt(searchPart);
+            }
+            catch (Exception e){
+
+            }
+        }
+        else {
+            nameString = searchPart;
+        }
+        Pokemon pokemon = new Pokemon(nr, nameString, "", "", 0,0,0,0,0,0,0, 0, false);
+        output.setText("The pokemon is at position: " + controller.search(ds, sa, pokemon));
 
     }
 
@@ -300,9 +318,7 @@ public class GUI extends JFrame {
 
         }
         else if (datastructures.getSelection().getActionCommand().equalsIgnoreCase(doublyLinkedListString)){
-             {
                 return "dll";
-            }
         }
         else if (datastructures.getSelection().getActionCommand().equalsIgnoreCase(queueString)) {
             return "q";
@@ -330,6 +346,18 @@ public class GUI extends JFrame {
         }
         else if (sorting.getSelection().getActionCommand().equalsIgnoreCase(quickSortString)) {
             return "qs";
+        }
+        else {
+            return "-";
+        }
+    }
+
+    private String currentSearchAlgorithm() {
+        if(searching.getSelection().getActionCommand().equalsIgnoreCase(sequentialSearchString)) {
+            return "ss";
+        }
+        else if (searching.getSelection().getActionCommand().equalsIgnoreCase(binarySearchString)) {
+            return "bs";
         }
         else {
             return "-";

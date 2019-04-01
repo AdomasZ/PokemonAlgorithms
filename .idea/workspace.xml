@@ -1,113 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="">
+    <list default="true" id="a46e599c-764e-444d-896c-f3065e693a8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/os/BinarySearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/BinarySearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokemonAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PokemonAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/QuickSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/QuickSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/QuickSorterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PokemonAlgorithms/com/os/QuickSorterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/os/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/os/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Pokemon_Algorithms$SequentialSearcherTest_testSequentialSearchBinaryTree.ic" NAME="SequentialSearcherTest.testSequentialSearchBinaryTree Coverage Results" MODIFIED="1554022462424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.os.*</FILTER>
-    </SUITE>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="466924489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="24" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6640" />
+          <entry key="java" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6640" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1991698717">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1526" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1526" />
+          <entry key="JAVA" value="225" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="102">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pokemon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="158" column="14" lean-forward="true" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSorter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/os/InsertionSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
-                <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
-                <element signature="method#binarySearch#0;class#BinarySearcher#0" />
-                <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
-                <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
+      <file leaf-file-name="BinarySearcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="-646">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,35 +115,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>remov</find>
-      <find>Item</find>
-      <find>E</find>
-      <find>iterato</find>
-      <find>old</find>
-      <find>front</find>
-      <find>po</find>
-      <find>main</find>
-      <find>top</find>
-      <find>buttom</find>
-      <find>remove</find>
-      <find>assertThat</find>
-      <find>null</find>
-      <find>sort</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Item</replace>
-      <replace>button</replace>
-      <replace>bottom</replace>
-      <replace>delete</replace>
-      <replace>assertEquals</replace>
-      <replace>top</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,23 +126,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/os/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/com/os/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Stack.java" />
-        <option value="$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java" />
-        <option value="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Queue.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Main.java" />
         <option value="$PROJECT_DIR$/src/com/os/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Main.java" />
         <option value="$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java" />
-        <option value="$PROJECT_DIR$/src/com/os/SequentialSearcher.java" />
-        <option value="$PROJECT_DIR$/src/com/os/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/os/QuickSorter.java" />
-        <option value="$PROJECT_DIR$/test/com/os/QuickSorterTest.java" />
-        <option value="$PROJECT_DIR$/test/com/os/BinarySearcherTest.java" />
-        <option value="$PROJECT_DIR$/src/com/os/BinarySearcher.java" />
+        <option value="$PROJECT_DIR$/test/com/os/TreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/os/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/com/os/InsertionSorter.java" />
       </list>
     </option>
   </component>
@@ -183,41 +143,45 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="os" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pokemon Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pokemon Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokemonAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="os" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -225,8 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,26 +197,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554050411226" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553602325038" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.os" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Nika\Documents\2019\Stenden\Year 2\Period  3\Algorithms and Data\Final\Pokemon Algorithms\test\com\os" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,16 +215,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearcherTest">
-    <configuration name="All in PokemonAlgorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokemonAlgorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.os.Main" />
       <module name="PokemonAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -285,72 +225,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.BinarySearcherTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="QuickSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokemonAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.os.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSorterTest.testQuickSortLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokemonAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.os.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
-      <option name="METHOD_NAME" value="testQuickSortLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSorterTest.testQuickSortMyLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokemonAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.os.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.os" />
-      <option name="MAIN_CLASS_NAME" value="com.os.QuickSorterTest" />
-      <option name="METHOD_NAME" value="testQuickSortMyLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
-      <item itemvalue="JUnit.QuickSorterTest.testQuickSortMyLinkedList" />
-      <item itemvalue="JUnit.QuickSorterTest" />
-      <item itemvalue="JUnit.All in PokemonAlgorithms" />
-      <item itemvalue="JUnit.BinarySearcherTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearcherTest" />
-        <item itemvalue="JUnit.All in PokemonAlgorithms" />
-        <item itemvalue="JUnit.QuickSorterTest" />
-        <item itemvalue="JUnit.QuickSorterTest.testQuickSortMyLinkedList" />
-        <item itemvalue="JUnit.QuickSorterTest.testQuickSortLinkedList" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -359,115 +237,60 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e57cc67-a88f-4521-a64c-5c52aa81822a" name="Default Changelist" comment="" />
+      <changelist id="a46e599c-764e-444d-896c-f3065e693a8d" name="Default Changelist" comment="" />
       <created>1553601695725</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553601695725</updated>
       <workItem from="1553601699223" duration="1190000" />
-      <workItem from="1553686975612" duration="3247000" />
-      <workItem from="1554020119969" duration="13380000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 23m 56s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 29m 57s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 30m 08s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 31m 31s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 34m 42s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 34m 49s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 35m 41s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 36m 04s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 36m 08s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearcherTest - 2019.03.31 at 18h 38m 52s.xml">
-      <configuration name="BinarySearcherTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17980000" />
+    <option name="totallyTimeSpent" value="1190000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3380744" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32987553" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32987553" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32883817" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32987553" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30010495" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47534102" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32738718" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2987952" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,68 +298,171 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/os/BinarySearcher.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/os/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/TreeNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="method#testInit#0;class#TreeNodeTest#0" />
-            <element signature="method#testSetGetLeft#0;class#TreeNodeTest#0" />
-            <element signature="method#testSetGetRight#0;class#TreeNodeTest#0" />
-            <element signature="docComment;method#testSetGetData#0;class#TreeNodeTest#0" />
-            <element signature="method#testSetGetData#0;class#TreeNodeTest#0" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyArrayList.java" />
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedList.java" />
-    <entry file="file://$USER_HOME$/OneDrive - NHL Stenden Hogeschool/University/Data Structures and Algorithms/ThinkDataStructures-master/solutions/src/com/allendowney/thinkdast/MyLinkedListTest.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/MyQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -545,172 +471,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1164">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="100" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="57" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#TestAdd#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testContains#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testContains#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testDelete#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testInorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testPreorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testPostorderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="docComment;method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
-            <element signature="method#testLevelOrderTraversal#0;class#BinarySearchTreeTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="362" selection-start-line="362" selection-end-line="362" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="189" column="60" selection-start-line="189" selection-start-column="60" selection-end-line="189" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;method#BinarySearchTree#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#BinarySearchTree#1;class#BinarySearchTree#0" />
-            <element signature="docComment;method#add#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveAdd#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#contains#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveContains#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveContains#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#delete#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveDelete#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveDelete#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#findSmallestValue#0;class#BinarySearchTree#0" />
-            <element signature="method#findSmallestValue#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#inorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursiveInorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#preorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursivePreorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#postorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="docComment;method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#recursivePostorderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="method#completeLevelOrderTraversal#0;class#BinarySearchTree#0" />
-            <element signature="e#8709#8710#0" expanded="true" />
-            <element signature="e#8736#8737#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/SequentialSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="docComment;method#sequentialSearch#0;class#SequentialSearcher#0" />
-            <element signature="method#sequentialSearch#0;class#SequentialSearcher#0" />
-            <element signature="docComment;method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
-            <element signature="method#sequentialSearchRecursive#0;class#SequentialSearcher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/QuickSorterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/QuickSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="391">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/test/com/os/MyQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1331">
-          <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/Stack.java">
+    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/os/BinarySearcherTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/os/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="-235">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/TreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/os/SequentialSearcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/BinarySearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="-646">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="158" column="14" lean-forward="true" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/InsertionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <element signature="docComment;method#binarySearch#0;class#BinarySearcher#0" />
-            <element signature="method#binarySearch#0;class#BinarySearcher#0" />
-            <element signature="docComment;method#binarySearchRecursive#0;class#BinarySearcher#0" />
-            <element signature="method#binarySearchRecursive#0;class#BinarySearcher#0" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,80 +601,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>PokemonAlgorithms</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -55,7 +55,7 @@ public class Main {
     }
 
     //is an array of int fine or do i have to use list or something
-    public static void insertionSort(int arr[]) {
+    public static void insertionSort(int[] arr) {
         int i, key, j;
         int n = arr.length;
         for (i = 1; i < n; i++) {

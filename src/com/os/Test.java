@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Test {
     MyLinkedList<Pokemon> myLinkedList;
     public Test() throws IOException {
-        myLinkedList = Main.readPokemons();
+        Controller.readPokemons("Name");
         int listSize = myLinkedList.size();
         for (int i = 0; i < listSize-1; i++) {
             Pokemon iPokemon = myLinkedList.get(i).getData();

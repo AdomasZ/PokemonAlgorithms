@@ -131,4 +131,13 @@ public class Pokemon implements Comparable{
         return legendary;
     }
 
+    public void setCompareCriteria(String criteria) {
+        if(criteria.equalsIgnoreCase("Name")) {
+            compareCriteria = name;
+        }
+        else if(criteria.equalsIgnoreCase("Number")) {
+            compareCriteria = nr;
+        }
+    }
+
 }

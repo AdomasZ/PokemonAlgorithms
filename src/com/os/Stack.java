@@ -56,7 +56,7 @@ public class Stack<Item> implements Iterable<Item> {
      * Removes and returns the item most recently added to this stack.
      *
      * @return the item most recently added
-     * @throws NoSuchElementException if this stack is empty
+     * @throws //NoSuchElementException if this stack is empty
      */
     public Item pop() {
         if (isEmpty()) throw new NoSuchElementException("Stack underflow");

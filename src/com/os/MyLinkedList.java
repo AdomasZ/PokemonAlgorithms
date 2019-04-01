@@ -5,37 +5,6 @@ public class MyLinkedList<T>{
     private Node tail;
     private int size = 0;
 
-    public void testFind(){
-        MyLinkedList a = new MyLinkedList<>();
-        a.add(0);
-        a.add(1);
-        Node n1 = a.get(0);
-        System.out.println(a.find(n1));
-    }
-    public void testSwapRight(){
-        MyLinkedList a = new MyLinkedList<>();
-        a.add(0);
-        a.add(1);
-        Node n0 = a.get(0);
-        Node n1 = a.get(1);
-        a.swapRight(n0);
-        a.swapRight(n1);
-        System.out.println(n0);
-    }
-
-    public void testSwap(){
-        MyLinkedList a = new MyLinkedList<>();
-        a.add(0);
-        a.add(1);
-        a.add(2);
-        a.add(3);
-        a.add(4);
-        a.add(5);
-        Node n0 = a.get(0);
-        Node n1 = a.get(1);
-        a.swap(n0,n1);
-        System.out.println(n0);
-    }
 
     public void swapRight(Node node){
         if (node.next == null || size < 2)
@@ -61,33 +30,22 @@ public class MyLinkedList<T>{
         int node1Index = find(node1);
         int difference = nodeIndex > node1Index? nodeIndex-node1Index:node1Index-nodeIndex;
         if(difference > 1){
-
+            Node node1Left = get(node1Index-1);
+            Node node1Right = get(node1Index+1);
+            Node nodeLeft = get(nodeIndex-1);
             if(node == head){
-                Node node1Left = get(node1Index-1);
-                Node node1Right = get(node1Index+1);
-                Node nodeRight = get(nodeIndex+1);
-
                 head = node1;
-                head.next = nodeRight;
+                head.next = node.next;
                 node1Left.next = node;
                 node.next = node1Right;
             } else if (node1 == head){
-                Node node1Right = get(node1Index+1);
-                Node nodeLeft = get(nodeIndex-1);
-                Node nodeRight = get(nodeIndex+1);
                 head = node;
                 head.next = node1Right;
                 nodeLeft.next = node1;
-                node1.next = nodeRight;
+                node1.next = node.next;
             } else {
-                Node node1Right = get(node1Index+1);
-                Node node1Left = get(node1Index-1);
-                Node nodeRight = get(nodeIndex+1);
-                Node nodeLeft = get(nodeIndex-1);
-
                 nodeLeft.next = node1;
-                node1.next = nodeRight;
-
+                node1.next = node.next;
                 node1Left.next = node;
                 node.next = node1Right;
             }
@@ -98,6 +56,14 @@ public class MyLinkedList<T>{
             } else{
                 swapRight(node);
             }
+        }
+    }
+
+    public void printList(){
+        Node node = head;
+        while (node != null){
+            System.out.println(node.getData().toString());
+            node = node.next;
         }
     }
 

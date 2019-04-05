@@ -102,6 +102,15 @@ public class MyDoublyLinkedList<T>{
         return size;
     }
 
+    @Override
+    public String toString() {
+        String returnString = "";
+        for(int i = 0; i < size() - 1; i++) {
+            returnString += get(i).data + "\n";
+        }
+        return returnString;
+    }
+
     public class DoubleNode {
         private T data;
         public DoubleNode next;

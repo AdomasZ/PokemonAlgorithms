@@ -20,27 +20,17 @@ public class InsertionSorter {
         return list;
     }
 
+    //TODO
+    public MyDoublyLinkedList insertionSort(MyDoublyLinkedList<Pokemon> list) {
+        return null;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //TODO
     public Stack<Pokemon> insertionSort(Stack<Pokemon> stack) {
         return null;
     }
 
+    //TODO
     public MyQueue<Pokemon> insertionSort(MyQueue<Pokemon> queue) {
         return null;
     }

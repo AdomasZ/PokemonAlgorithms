@@ -54,4 +54,20 @@ public class SequentialSearcher {
 
 
     }
+
+    public int sequentialSearch(MyDoublyLinkedList<Pokemon> list, Pokemon data) {
+        return -1;
+    }
+
+    public int sequentialSearch(MyLinkedList<Pokemon> list, Pokemon data) {
+        return -1;
+    }
+
+    public int sequentialSearch(Stack<Pokemon> stack, Pokemon data) {
+        return -1;
+    }
+
+    public int sequentialSearch(MyQueue<Pokemon> queue, Pokemon data) {
+        return -1;
+    }
 }

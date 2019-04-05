@@ -68,6 +68,16 @@ public class Stack<Item> implements Iterable<Item> {
 
 
     /**
+     * Removes all the elements
+     * */
+    public void deleteAll()
+    {
+        while(!isEmpty()){
+            pop();
+        }
+    }
+
+    /**
      * Returns (but does not remove) the item most recently added to this stack.
      *
      * @return the item most recently added to this stack
@@ -87,7 +97,7 @@ public class Stack<Item> implements Iterable<Item> {
         StringBuilder s = new StringBuilder();
         for (Item item : this) {
             s.append(item);
-            s.append(' ');
+            s.append("\n");
         }
         return s.toString();
     }

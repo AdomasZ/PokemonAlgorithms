@@ -40,6 +40,10 @@ public class MyQueue<Item> implements Iterable<Item> {
         return item;
     }
 
+    public Item peek() {
+        return top.item;
+    }
+
 
     public void deleteAll()
     {
@@ -69,6 +73,16 @@ public class MyQueue<Item> implements Iterable<Item> {
     public int size()
     {
         return size;
+    }
+
+    @Override
+    public String toString() {
+        String returnString = "";
+        Iterator<Item> it = iterator();
+        while(it.hasNext()) {
+            returnString += it.next().toString() + "\n";
+        }
+        return returnString;
     }
 
     //Iterator for traversing queue items

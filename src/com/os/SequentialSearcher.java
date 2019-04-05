@@ -69,7 +69,6 @@ public class SequentialSearcher {
         while (!stack.isEmpty()) {
             Pokemon pokemon = stack.pop();
             if (pokemon.compareTo(data) == 0) {
-                System.out.println(counter);
                 return counter;
             }
             counter--;

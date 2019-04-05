@@ -11,7 +11,7 @@ public class Main {
     private static MyQueue<Pokemon> queue = new MyQueue<>();
 
     public static void main(String[] args) throws IOException {
-        readPokemons();
+        MyLinkedList<Pokemon> list = readPokemons();
 
 
         System.out.println("Inorder Traversal:");
@@ -27,10 +27,17 @@ public class Main {
         System.out.println("Postorder Traversal:");
         System.out.println(binarySearchTree.postorderTraversal());
 
-        System.out.println();
 
         System.out.println("Levelorder Traversal:");
         System.out.println(binarySearchTree.levelOrderTraversal());
+
+        System.out.println("step 1");
+
+        InsertionSorter is = new InsertionSorter();
+        MyLinkedList<Pokemon> lis1 = is.insertionSort(list);
+        System.out.println(lis1);
+
+        System.out.println("step 2");
 
         System.out.println();
 
@@ -117,6 +124,7 @@ public class Main {
             boolean legendary   = Boolean.parseBoolean(temp[12]);
             Pokemon pokemon = new Pokemon(nr, name, type1, type2, total, HP, attack, defense, SPattack, SPdefense, speed, generation, legendary);
             addPokemonToDatastructures(pokemon);
+
         }
         bufferedReader.close();
         return linkedList;

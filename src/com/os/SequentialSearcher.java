@@ -64,13 +64,15 @@ public class SequentialSearcher {
     }
 
     public int sequentialSearch(Stack<Pokemon> stack, Pokemon data) {
-        int counter = 0;
+        //does the position start at 0 or 1? if its 0, counter needs to be: stack.size() - 1
+        int counter = stack.size();
         while (!stack.isEmpty()) {
             Pokemon pokemon = stack.pop();
             if (pokemon.compareTo(data) == 0) {
+                System.out.println(counter);
                 return counter;
             }
-            counter++;
+            counter--;
         }
         return -1;
     }

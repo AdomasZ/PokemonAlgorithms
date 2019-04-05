@@ -5,37 +5,51 @@ public class InsertionSorter {
 
     public MyLinkedList<Pokemon> insertionSort(MyLinkedList<Pokemon> list) {
         int n = list.size();
-        for(int i = 1; i < n; n++) {
+        //i did n++ instead of ++i... took me atleast 3 hours. I even made my own method checking the first letter of the string
+        for(int i = 1; i < n; ++i) {
             Pokemon key = list.get(i).getData();
             int j = i - 1;
 
-//            while (j >= 0 && list.get(j) > key) {
-//                list.get(j + 1) = list.get(j);
+//            while(j >= 0 && compareHigherThan(list.get(j).getData(), key)) {
+//                Pokemon pokemon = list.get(j).getData();
+//                list.get(j + 1).setData(pokemon);
 //                j = j - 1;
 //            }
-//            arr[j + 1] = key;
 
+            while(j >= 0 && list.get(j).getData().compareTo(key) > 0) {
+                Pokemon pokemon = list.get(j).getData();
+                list.get(j + 1).setData(pokemon);
+                j = j - 1;
+            }
+            list.get(j + 1).setData(key);
         }
-        insertionSort(list);
         return list;
     }
 
+
+//    private boolean compareHigherThan(Pokemon pokemon1, Pokemon pokemon2) {
+//        int diff = pokemon1.getName().toLowerCase().charAt(0) - pokemon2.getName().toLowerCase().charAt(0);
+//        if(diff > 0) {
+//            return true;
+//        }
+//        return false;
+//    }
+
     //TODO
     public MyDoublyLinkedList insertionSort(MyDoublyLinkedList<Pokemon> list) {
-        return null;
+        int n = list.size();
+        for(int i = 1; i < n; ++i) {
+            Pokemon key = list.get(i).getData();
+            int j = i - 1;
+
+            while(j >= 0 && list.get(j).getData().compareTo(key) > 0) {
+                Pokemon pokemon = list.get(j).getData();
+                list.get(j + 1).setData(pokemon);
+                j = j - 1;
+            }
+            list.get(j + 1).setData(key);
+        }
+        return list;
     }
-
-    //TODO
-    public Stack<Pokemon> insertionSort(Stack<Pokemon> stack) {
-        return null;
-    }
-
-    //TODO
-    public MyQueue<Pokemon> insertionSort(MyQueue<Pokemon> queue) {
-        return null;
-    }
-
-
-
 
 }

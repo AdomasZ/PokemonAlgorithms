@@ -9,11 +9,11 @@ public class InsertionSorter {
             Pokemon key = list.get(i).getData();
             int j = i - 1;
 
-            while (j >= 0 && list.get(j) > key) {
-                list.get(j + 1) = list.get(j);
-                j = j - 1;
-            }
-            arr[j + 1] = key;
+//            while (j >= 0 && list.get(j) > key) {
+//                list.get(j + 1) = list.get(j);
+//                j = j - 1;
+//            }
+//            arr[j + 1] = key;
 
         }
         insertionSort(list);

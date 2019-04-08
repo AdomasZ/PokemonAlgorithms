@@ -25,7 +25,7 @@ class StackTest {
 
     @Test
     void isEmpty() {
-//        assertEquals(stack.isEmpty(), false);
+        assertEquals(stack.isEmpty(), false);
         stack.deleteAll();
         assertEquals(stack.isEmpty(), true);
     }

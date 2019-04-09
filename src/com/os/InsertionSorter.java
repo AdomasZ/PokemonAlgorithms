@@ -1,5 +1,7 @@
 package com.os;
 
+import java.util.Iterator;
+
 public class InsertionSorter {
     MyLinkedList<Pokemon> test = new MyLinkedList<>();
 
@@ -45,6 +47,49 @@ public class InsertionSorter {
     }
 
     public MyQueue<Pokemon> insertionSort(MyQueue<Pokemon> queue) {
-        return null;
+
+        MyQueue<Pokemon> sorted = new MyQueue<>();
+
+        int size = queue.size();
+
+        for (int i=0; i<size;i++)
+        {
+            Iterator<Pokemon> iterator = queue.iterator();
+            Pokemon min = iterator.next();
+
+            for (int j = 0; j < queue.size()-1; j++) {  //looking for the minimum
+                Pokemon current = iterator.next();
+
+                if (min.compareTo(current) >= 1 ) {
+
+                    min = current;
+
+                }
+
+            }
+            //min is found
+
+            //copy of the original queue
+            MyQueue<Pokemon> queue1 = new MyQueue<>();
+            for(Pokemon q: queue){
+                queue1.insert(q);
+            }
+            //clear of the original queue
+            queue.deleteAll();
+
+            //search of the min element by inserting everything that is not the min element back to the queue
+            for (Pokemon q : queue1)
+            {
+                if(q.compareTo(min)==0){
+                    //the elements we're searching for
+                }else{
+                    queue.insert(q);
+                }
+            }
+
+            sorted.insert(min);
+        }
+
+        return sorted;
     }
 }

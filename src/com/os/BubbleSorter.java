@@ -3,11 +3,34 @@ package com.os;
 import java.util.Iterator;
 
 public class BubbleSorter {
-    public MyLinkedList<Pokemon> bubbleSort(MyLinkedList<Pokemon> myLinkedList){
-       return null;
+    public MyLinkedList<Pokemon> bubbleSort(MyLinkedList<Pokemon> list){
+
+        int listSize = list.size();
+
+        for (int i = 0; i < listSize; i++) {
+
+            for (int j = 0; j < listSize-1; j++){
+                if (list.get(j).getData().compareTo(list.get(j + 1).getData()) > 0) {
+                    list.swap(list.get(j), list.get(j+1));
+
+                }
+            }
+        }
+        return list;
+
     }
-    public MyDoublyLinkedList<Pokemon> bubbleSort(MyDoublyLinkedList<Pokemon> myLinkedList){
-        return null;
+    public MyDoublyLinkedList<Pokemon> bubbleSort(MyDoublyLinkedList<Pokemon> myDoublyLinkedList){
+        int listSize = myDoublyLinkedList.size();
+        for (int i = 0; i < listSize; i++) {
+
+            for (int j = 0; j < listSize-1; j++){
+                if (myDoublyLinkedList.get(j).getData().compareTo(myDoublyLinkedList.get(j + 1).getData()) > 0) {
+                    myDoublyLinkedList.swapRight(myDoublyLinkedList.get(j));
+
+                }
+            }
+        }
+        return myDoublyLinkedList;
     }
 
 

@@ -31,8 +31,6 @@ public class Main {
         System.out.println("Levelorder Traversal:");
         System.out.println(binarySearchTree.levelOrderTraversal());
 
-
-
         //System.out.println(binarySearchTree.contains(new Pokemon(2,"test", "sf", "sf", 4, 3, 4, 3, 4,3, 4, 4, false)));
         //binarySearchTree.printTree();
         //Test test = new Test();

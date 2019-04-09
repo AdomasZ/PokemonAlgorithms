@@ -67,7 +67,6 @@ public class SequentialSearcher {
         //does the position start at 0 or 1? if its 0, counter needs to be: stack.size() - 1
         Stack<Pokemon> tstack = new Stack<>();
         int counter = stack.size();
-        System.out.println(stack.size());
         while (!stack.isEmpty()) {
             Pokemon pokemon = stack.pop();
             tstack.push(pokemon);

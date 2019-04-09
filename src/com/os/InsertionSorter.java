@@ -43,4 +43,8 @@ public class InsertionSorter {
 
         return stack;
     }
+
+    public MyQueue<Pokemon> insertionSort(MyQueue<Pokemon> queue) {
+        return null;
+    }
 }

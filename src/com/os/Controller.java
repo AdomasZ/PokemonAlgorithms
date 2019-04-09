@@ -251,7 +251,7 @@ public class Controller {
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
             //TODO
-            //sortedQueue = sorter.insertionSorter.insertionSort(queue);
+            sortedQueue = sorter.insertionSorter.insertionSort(queue);
         }
         else {
             //sort with quick sort
@@ -270,7 +270,7 @@ public class Controller {
         }
         else if (sortingAlgorithm.equals("is")){
             //sort with insertion sort
-            //sortedStack = sorter.insertionSorter.insertionSort(stack);
+            sortedStack = sorter.insertionSorter.insertionSort(stack);
         }
         else {
             //sort with quick sort

@@ -143,10 +143,10 @@ public class BinarySearcher {
                 return middle;
             }
             else {
-                if(element.compareTo(data) < 0) {
+                if(element.compareTo(data) > 0) {
                     bottom = middle - 1;
                 }
-                else if(element.compareTo(data) > 0) {
+                else if(element.compareTo(data) < 0) {
                     top = middle + 1;
                 }
             }

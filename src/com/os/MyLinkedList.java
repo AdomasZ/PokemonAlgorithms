@@ -13,7 +13,7 @@ public class MyLinkedList<T>{
         Node nodeRihgtNext = nodeRight.next;
         if(node != head){
             Node nodeRightNext = nodeRight.next;
-            Node nodeLeft = get(find(node)-1);
+            Node nodeLeft = get(find(node.getData())-1);
             nodeLeft.next = nodeRight;
             nodeRight.next = node;
             node.next = nodeRightNext;
@@ -26,8 +26,8 @@ public class MyLinkedList<T>{
     }
 
     public void swap(Node node, Node node1){
-        int nodeIndex = find(node);
-        int node1Index = find(node1);
+        int nodeIndex = find(node.getData());
+        int node1Index = find(node1.getData());
         int difference = nodeIndex > node1Index? nodeIndex-node1Index:node1Index-nodeIndex;
         if(difference > 1){
             Node node1Left = get(node1Index-1);
@@ -86,11 +86,11 @@ public class MyLinkedList<T>{
         return node;
     }
 
-    public int find(Node target){
+    public int find(T target){
         int index = 0;
         Node node = head;
         while (node != null){
-            if (node.equal(target)) {
+            if (((Comparable)node.getData()).compareTo(target) == 0) {
                 return index;
             }
             node = node.next;

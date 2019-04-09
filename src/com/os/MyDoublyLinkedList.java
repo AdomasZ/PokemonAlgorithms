@@ -66,11 +66,11 @@ public class MyDoublyLinkedList<T>{
         }
     }
 
-    public int find(DoubleNode target){
+    public int find(T target){
         int index = 0;
         DoubleNode node = head;
         while (node != null){
-            if (node.equal(target)) {
+            if (((Comparable)node.getData()).compareTo(target) == 0) {
                 return index;
             }
             node = node.next;

@@ -280,6 +280,12 @@ public class GUI extends JFrame {
             nameString = searchPart;
         }
         Pokemon pokemon = new Pokemon(nr, nameString, "", "", 0,0,0,0,0,0,0, 0, false);
+        if(name.isSelected()) {
+            pokemon.setCompareCriteria(name.getActionCommand());
+        }
+        else if (number.isSelected()) {
+            pokemon.setCompareCriteria(number.getActionCommand());
+        }
         output.setText("The pokemon is at position: " + controller.search(ds, sa, pokemon));
 
     }

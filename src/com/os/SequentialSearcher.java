@@ -56,11 +56,11 @@ public class SequentialSearcher {
     }
 
     public int sequentialSearch(MyDoublyLinkedList<Pokemon> list, Pokemon data) {
-        return -1;
+        return list.find(data);
     }
 
     public int sequentialSearch(MyLinkedList<Pokemon> list, Pokemon data) {
-        return -1;
+        return list.find(data);
     }
 
     public int sequentialSearch(Stack<Pokemon> stack, Pokemon data) {
@@ -83,6 +83,15 @@ public class SequentialSearcher {
     }
 
     public int sequentialSearch(MyQueue<Pokemon> queue, Pokemon data) {
-        return -1;
+        int size = queue.size();
+        int position = -1;
+        for(int i = 0; i < size; i++) {
+            Pokemon current = queue.delete();
+            queue.insert(current);
+            if(current.compareTo(data) == 0 && position == -1) {
+                position = i;
+            }
+        }
+        return position;
     }
 }

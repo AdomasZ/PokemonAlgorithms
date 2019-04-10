@@ -42,15 +42,15 @@ public class BubbleSorter {
 
         int size = stack.size();
 
-        for (int i=0; i<size;i++)
-        {
+        for (int i = 0; i < size; i++) {
             Iterator<Pokemon> iterator = stack.iterator();
+            if(iterator.hasNext()) {
             Pokemon min = iterator.next();
 
-            for (int j = 0; j < stack.size()-1; j++) {  //looking for the minimum
+            for (int j = 0; j < stack.size() - 1; j++) {  //looking for the minimum
                 Pokemon current = iterator.next();
 
-                if (min.compareTo(current) < 0 ) {
+                if (min.compareTo(current) < 0) {
 
                     min = current;
 
@@ -61,25 +61,24 @@ public class BubbleSorter {
 
             //copy of the original stack
             Stack<Pokemon> stack1 = new Stack<>();
-            for(Pokemon q: stack){
+            for (Pokemon q : stack) {
                 stack1.push(q);
             }
             //clear of the original stack
             stack.deleteAll();
 
             //search of the min element by inserting everything that is not the min element back to the stack
-            for (Pokemon q : stack1)
-            {
-                if(q.compareTo(min)==0) {
+            for (Pokemon q : stack1) {
+                if (q.compareTo(min) == 0) {
                     //the elements we're searching for
-                }
-                else{
+                } else {
                     stack.push(q);
                 }
             }
 
             sorted.push(min);
         }
+    }
 
         return sorted;
     }
@@ -95,18 +94,20 @@ public class BubbleSorter {
         for (int i=0; i<size;i++)
         {
             Iterator<Pokemon> iterator = queue.iterator();
-            Pokemon min = iterator.next();
+            if(iterator.hasNext()) {
+                Pokemon min = iterator.next();
 
-            for (int j = 0; j < queue.size()-1; j++) {  //looking for the minimum
-                Pokemon current = iterator.next();
 
-                if (min.compareTo(current) >= 1 ) {
+                for (int j = 0; j < queue.size()-1; j++) {  //looking for the minimum
+                    Pokemon current = iterator.next();
 
-                    min = current;
+                    if (min.compareTo(current) >= 1 ) {
+
+                        min = current;
+
+                    }
 
                 }
-
-            }
             //min is found
 
             //copy of the original queue
@@ -128,6 +129,8 @@ public class BubbleSorter {
             }
 
             sorted.insert(min);
+        }
+
         }
 
         return sorted;

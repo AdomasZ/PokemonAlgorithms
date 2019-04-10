@@ -52,12 +52,12 @@ public class SmartBubbleSorter {
         Stack<Pokemon> sorted = new Stack<>();
 
         int size = stack.size();
-
+        boolean isSwaped = false;
         for (int i=0; i<size-1;i++)
         {
             Iterator<Pokemon> iterator = stack.iterator();
             Pokemon min = iterator.next();
-            boolean isSwaped = false;
+            isSwaped = false;
             for (int j = 0; j < stack.size()-1-i; j++) {  //looking for the minimum
                 Pokemon current = iterator.next();
 
@@ -108,18 +108,20 @@ public class SmartBubbleSorter {
         MyQueue<Pokemon> sorted = new MyQueue<>();
 
         int size = queue.size();
-
+        boolean isSwaped = false;
         for (int i=0; i<size;i++)
         {
             Iterator<Pokemon> iterator = queue.iterator();
             Pokemon min = iterator.next();
-
+            isSwaped = false;
             for (int j = 0; j < queue.size()-1; j++) {  //looking for the minimum
                 Pokemon current = iterator.next();
 
                 if (min.compareTo(current) >= 1 ) {
 
                     min = current;
+
+                    isSwaped = true;
 
                 }
 
@@ -145,6 +147,9 @@ public class SmartBubbleSorter {
             }
 
             sorted.insert(min);
+            if (!isSwaped){
+                break;
+            }
         }
 
         return sorted;

@@ -1,7 +1,16 @@
 package com.os;
 
 import java.util.Iterator;
-
+/**
+ *
+ * The following class contains a bubble sorting algorithms for 4 different data structures:
+ * LinkedList
+ * DoublyLinkedList
+ * Stack
+ * Queue
+ *
+ * All of the methods have the same name, and are overloaded
+ */
 public class BubbleSorter {
     public MyLinkedList<Pokemon> bubbleSort(MyLinkedList<Pokemon> list){
 

@@ -1,7 +1,18 @@
 package com.os;
 
 import java.util.*;
-
+/**
+ *
+ * The following class contains a queue data structure, which has these methods :
+ * isEmpty()
+ * delete()
+ * peek()
+ * deleteAll()
+ * insert(Item item)
+ * size()
+ * toString()
+ *
+ */
 public class MyQueue<Item> implements Iterable<Item> {
     private Node top, bottom; //begin and end nodes
     private int size; // number of items

@@ -53,25 +53,22 @@ public class SmartBubbleSorter {
 
         int size = stack.size();
 
-        for (int i=0; i<size-1;i++) {
+        for (int i = 0; i < size; i++) {
             Iterator<Pokemon> iterator = stack.iterator();
-
-            boolean isSwaped = false;
+            if(iterator.hasNext()) {
                 Pokemon min = iterator.next();
-                for (int j = 0; j < stack.size() - 1 - i; j++) {  //looking for the minimum
+
+                for (int j = 0; j < stack.size() - 1; j++) {  //looking for the minimum
                     Pokemon current = iterator.next();
 
-                    if (min.compareTo(current) < 0) {
+                    if (min.compareTo(current) <= 0) {
 
                         min = current;
-
-                        isSwaped = true;
 
                     }
 
                 }
                 //min is found
-
 
                 //copy of the original stack
                 Stack<Pokemon> stack1 = new Stack<>();
@@ -83,7 +80,7 @@ public class SmartBubbleSorter {
 
                 //search of the min element by inserting everything that is not the min element back to the stack
                 for (Pokemon q : stack1) {
-                    if (q.compareTo(min) == 0) {
+                    if (q == min) {
                         //the elements we're searching for
                     } else {
                         stack.push(q);
@@ -91,10 +88,8 @@ public class SmartBubbleSorter {
                 }
 
                 sorted.push(min);
-                if (!isSwaped) {
-                    break;
-                }
             }
+        }
 
         return sorted;
     }
@@ -106,18 +101,19 @@ public class SmartBubbleSorter {
         MyQueue<Pokemon> sorted = new MyQueue<>();
 
         int size = queue.size();
-
+        boolean didSwap = false;
         for (int i=0; i<size;i++) {
             Iterator<Pokemon> iterator = queue.iterator();
             if (iterator.hasNext()) {
                 Pokemon min = iterator.next();
-
+                didSwap = false;
                 for (int j = 0; j < queue.size() - 1; j++) {  //looking for the minimum
                     Pokemon current = iterator.next();
 
                     if (min.compareTo(current) >= 1) {
 
                         min = current;
+                        didSwap = true;
 
                     }
 
@@ -134,7 +130,8 @@ public class SmartBubbleSorter {
 
                 //search of the min element by inserting everything that is not the min element back to the queue
                 for (Pokemon q : queue1) {
-                    if (q.compareTo(min) == 0) {
+
+                    if (q == min) {
                         //the elements we're searching for
                     } else {
                         queue.insert(q);
@@ -142,7 +139,9 @@ public class SmartBubbleSorter {
                 }
 
                 sorted.insert(min);
+
             }
+
         }
 
         return sorted;

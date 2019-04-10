@@ -8,7 +8,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c6400aef-9d06-4d5b-8cf9-d4ffb256f1bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PokemonAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PokemonAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/BubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/InsertionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/SmartBubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms/com/os/SmartBubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms_jar/PokemonAlgorithms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/PokemonAlgorithms_jar/PokemonAlgorithms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/artifacts/PokemonAlgorithms_jar/PokemonAlgorithms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/artifacts/PokemonAlgorithms_jar/PokemonAlgorithms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/BubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/InsertionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonAlgorithms/production/PokemonAlgorithms/com/os/SmartBubbleSorter.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +31,11 @@
     <session id="466924489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,7 +61,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4233">
+              <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +92,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -120,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.PokemonJar">
+  <component name="RunManager" selected="Application.GUI">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.os.GUI" />
       <module name="PokemonAlgorithms" />
@@ -183,14 +205,15 @@
       <workItem from="1554882980647" duration="257000" />
       <workItem from="1554894525605" duration="1900000" />
       <workItem from="1554898348898" duration="1017000" />
+      <workItem from="1554901681526" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3280000" />
+    <option name="totallyTimeSpent" value="3658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5295405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -201,7 +224,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37460652" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37422037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,17 +329,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/os/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/os/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
         </state>
       </provider>
     </entry>

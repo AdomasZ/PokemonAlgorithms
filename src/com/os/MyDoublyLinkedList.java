@@ -105,7 +105,7 @@ public class MyDoublyLinkedList<T>{
     @Override
     public String toString() {
         String returnString = "";
-        for(int i = 0; i < size() - 1; i++) {
+        for(int i = 0; i < size(); i++) {
             returnString += get(i).data + "\n";
         }
         return returnString;

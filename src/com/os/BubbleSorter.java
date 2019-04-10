@@ -69,7 +69,7 @@ public class BubbleSorter {
 
             //search of the min element by inserting everything that is not the min element back to the stack
             for (Pokemon q : stack1) {
-                if (q.compareTo(min) == 0) {
+                if (q == min) {
                     //the elements we're searching for
                 } else {
                     stack.push(q);
@@ -121,7 +121,7 @@ public class BubbleSorter {
             //search of the min element by inserting everything that is not the min element back to the queue
             for (Pokemon q : queue1)
             {
-                if(q.compareTo(min)==0){
+                if(q == min){
                     //the elements we're searching for
                 }else{
                     queue.insert(q);
